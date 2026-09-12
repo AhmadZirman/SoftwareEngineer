@@ -1,2 +1,2 @@
-# SoftwareEngineer
-Software Engineering Notes from AAU Third Semester and Up
+# Software Engineer
+Software Engineering Notes from AAU Second Semester and Up
