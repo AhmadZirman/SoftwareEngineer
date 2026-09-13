@@ -7,3 +7,16 @@ We have an input (data) that we want to do something to, and we need to figure o
 # How to analyse algorithms
 
 **Assume the worst case**
+
+
+
+
+### F22 Exam
+[[F22_exam_notes]]
+
+### Master Theorem
+[[Master Theorem]]
+
+
+### Types of Algorithm
+[[Three types of algorithms]]
