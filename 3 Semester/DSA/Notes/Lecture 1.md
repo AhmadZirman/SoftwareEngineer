@@ -8,6 +8,10 @@
 - Cardinality = Number of rows
 These get used interchangeably in exams and later lectures, so both way translation should be instant.
 
+
+# A Table Is A Mathematical Relation
+
+
 # Database Management System (DBMS)
 
 A DBMS is a software program that lets you **create**, **store**, **change**, and **retrieve** data in a database.
