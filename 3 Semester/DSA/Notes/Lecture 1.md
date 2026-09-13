@@ -12,11 +12,10 @@ These get used interchangeably in exams and later lectures, so both way translat
 # A Table Is A Mathematical Relation
 Formally, a table is a relation: a subset of the Cartesian product of a set of domains, or value ranges. Practically, it is easier to think of a table as rows and columns - one row per real-world fact or entity instance, and one column per property recorded about each instance. You will hear both vocabularies throughout the course: the formal terms relation, tuple, and attribute mean exactly the same thing as the everyday terms table, row, and column.
 
-# Database Management System (DBMS)
-
+### Database Management System (DBMS)
 A DBMS is a software program that lets you **create**, **store**, **change**, and **retrieve** data in a database.
 
-## Why DBMS's exist at all
+### Why DBMS's exist at all
 Because a DBMS is software that manages all of this for you, out of the box:
 - A structured way to describe your data: A data model
 - A query language to retrieve and change that data
@@ -25,14 +24,12 @@ Because a DBMS is software that manages all of this for you, out of the box:
 - Safe concurrent access, through transactions
 In short, you stop reinventing all of this by hand, in every application you write, regardless of language.
 
-
-## Files vs. a Shared DB
+### Files vs. a Shared DB
 For each program/application, you'd need their own file, which could lead to data duplications and mismatch, and also inconsistency or redundancy.
 
 A shared DB solves this problem by having one system for all applications that use this specific data, which is shared and consistent.
 
-
-## Database vs. DBMS vs. Database System
+### Database vs. DBMS vs. Database System
 Three related terms are worth pinning down precisely, because all three will be used throughout the course:
 - Database: A collection of related data that models some part of the real world
 - DBMS: The software that lets you define, create, query, update, and administer databases
@@ -40,8 +37,7 @@ Three related terms are worth pinning down precisely, because all three will be 
 
 Examples of DBMS Software we will encounter in practice include PostgreSQL, MySQL, Oracle, SQL Server, SQLite.
 
-
-## History of Data Models
+### History of Data Models
 A data model is a collection of abstract concepts for describing data, essentially, the theory that dictates how a database is structured. Databases did not start out relational: The field went through three major eras.
 
 - Hierarchical Model: 1960s
