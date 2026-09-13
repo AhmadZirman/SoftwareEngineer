@@ -39,7 +39,10 @@ Examples of DBMS Software we will encounter in practice include PostgreSQL, MySQ
 
 ## History of Data Models
 A data model is a collection of abstract concepts for describing data, essentially, the theory that dictates how a database is structured. Databases did not start out relational: The field went through three major eras.
+
 - Hierarchical Model: 1960s
+The hierarchical model, data is organized as a tree: every record has 
+
 - Network Model: Late 1960s to 1970s
 - Relational Model: 1970 onward
 
