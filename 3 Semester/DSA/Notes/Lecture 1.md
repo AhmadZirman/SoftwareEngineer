@@ -1,5 +1,5 @@
 [[Lecture1-Intro-RelationalModel-typst.pdf]]
-# Core Vocabulary (formal $\leftrightarrow$ everyday use)
+# Core Vocabulary (formal $\leftrightarrow$ everyday term)
 - Relation = Table
 - Tuple = Row
 - Attribute = Column
@@ -7,7 +7,6 @@
 - Degree = Number of columns
 - Cardinality = Number of rows
 These get used interchangeably in exams and later lectures, so both way translation should be instant.
-
 
 # A Table Is A Mathematical Relation
 Formally, a table is a relation: a subset of the Cartesian product of a set of domains, or value ranges. Practically, it is easier to think of a table as rows and columns - one row per real-world fact or entity instance, and one column per property recorded about each instance. You will hear both vocabularies throughout the course: the formal terms relation, tuple, and attribute mean exactly the same thing as the everyday terms table, row, and column.
@@ -50,3 +49,5 @@ The network model generalizes the tree into a graph, so a record can have multip
 The relational model was proposed by E. F. Codd at IBM in 19691 , and its key idea was to represent all data uniformly as simple tables. Crucially, it separates the logical view of the data - the tables you see - from the physical storage underneath - the files, indexes, and disk layout the DBMS actually uses. That separation is exactly why SQL is a declarative language: you describe the result you want, and the DBMS figures out how to get it, rather than you writing out the navigation path yourself.
 
 The relational model is what virtually every mainstream database, including PostgreSQL, still uses today.
+
+## Keys And Integrity Rules
