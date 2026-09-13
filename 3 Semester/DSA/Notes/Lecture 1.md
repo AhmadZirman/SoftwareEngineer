@@ -41,9 +41,11 @@ Examples of DBMS Software we will encounter in practice include PostgreSQL, MySQ
 A data model is a collection of abstract concepts for describing data, essentially, the theory that dictates how a database is structured. Databases did not start out relational: The field went through three major eras.
 
 - Hierarchical Model: 1960s
-The hierarchical model, data is organized as a tree: every record has exactly one parent. A *DEPARTMENT* has many *Employees*, and each *Employee* has many *Payslips*, for example. That structure is fast to na
+The hierarchical model, data is organized as a tree: every record has exactly one parent. A *DEPARTMENT* has many *Employees*, and each *Employee* has many *Payslips*, for example. That structure is fast to navigate along that one fixed path, but it is rigid - it struggles to represent data that naturally has more than one parent, such as a student enrolled in two courses at once.
 
 - Network Model: Late 1960s to 1970s
+The network model generalizes the tree into 
+
 - Relational Model: 1970 onward
 
 The relational model is what virtually every mainstream database, including PostgreSQL, still uses today.
