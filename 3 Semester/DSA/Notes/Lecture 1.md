@@ -1,5 +1,5 @@
 
-obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf
+![obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf|455](obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf "Lecture 1 Slides")
 # Core Vocabulary (formal $\leftrightarrow$ everyday use)
 - Relation = Table
 - Tuple = Row
