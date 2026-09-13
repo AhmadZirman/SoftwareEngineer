@@ -10,7 +10,7 @@ These get used interchangeably in exams and later lectures, so both way translat
 
 
 # A Table Is A Mathematical Relation
-
+Formally, a table is a relation: a subset of the Cartesian product of a set of domains, or value ranges. Practically, it is easier to think of a table as rows and columns - one row per real-world fact or entity instance, and one column per property recorded about each instance. You will hear both vocabularies throughout the course: the formal terms relation, tuple, and attribute mean exactly the same thing as the everyday terms table, row, and column.
 
 # Database Management System (DBMS)
 
