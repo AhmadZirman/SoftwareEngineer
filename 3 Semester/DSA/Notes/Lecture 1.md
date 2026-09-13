@@ -44,8 +44,9 @@ A data model is a collection of abstract concepts for describing data, essential
 The hierarchical model, data is organized as a tree: every record has exactly one parent. A *DEPARTMENT* has many *Employees*, and each *Employee* has many *Payslips*, for example. That structure is fast to navigate along that one fixed path, but it is rigid - it struggles to represent data that naturally has more than one parent, such as a student enrolled in two courses at once.
 
 - Network Model: Late 1960s to 1970s
-The network model generalizes the tree into a graph, so a record can have multiple parents rather than just one. That is more flexible than the hierarchical model, but navigation is still done by following explicit, hand-coded pointers between records. Both of these earlier models require the
+The network model generalizes the tree into a graph, so a record can have multiple parents rather than just one. That is more flexible than the hierarchical model, but navigation is still done by following explicit, hand-coded pointers between records. Both of these earlier models require the programmer to know the physical structure of the data just to query it.
 
 - Relational Model: 1970 onward
+The relational model was proposed by E. F. Codd at IBM in 19691 , and its key idea was to represent all data uniformly as simple tables. Crucially, it separates the logical view of the data - the tables you see - from the physical storage underneath - the files, indexes, and disk layout the DBMS actually uses. That separation is exactly why SQL is a declarative language: you describe the result you want, and the DBMS figures out how to get it, rather than you writing out the navigation path yourself.
 
 The relational model is what virtually every mainstream database, including PostgreSQL, still uses today.
