@@ -1,10 +1,4 @@
-
-![Lecture 1 Slides](obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf "Lecture 1 Slides")
-
-
-![Lecture 1 Slides](obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf "Lecture 1 Slides")
-
-
+[Lecture 1 Slides](obsidian://open?vault=Software&file=Software%20Engineering%2F3%20Semester%2FDSA%2FSlides%2FLecture1-Intro-RelationalModel-typst.pdf)
 
 # Core Vocabulary (formal $\leftrightarrow$ everyday use)
 - Relation = Table
