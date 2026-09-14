@@ -1,7 +1,7 @@
 
 
 # Lecture 1 and Slides
-[[Lecture 1]]
+[[Software Engineer/3 Semester/DSA/Notes/Lecture 1]]
 [[Lecture1-Intro-RelationalModel-typst.pdf]]
 
 
