@@ -18,4 +18,10 @@ Emphasises certain aspects, i.e. those useful for the current purpose
 
 
 ## UML
-Unified Modelling Language, creating OO structures since the la
+Unified Modelling Language, creating OO structures since the late 90's
+
+## Standardized Representations
+![[Pasted image 20260914122131.png]]
+
+
+## A Classic Sequential Soft
