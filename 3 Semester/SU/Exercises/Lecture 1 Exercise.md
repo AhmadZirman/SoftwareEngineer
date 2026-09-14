@@ -20,18 +20,18 @@ Imagine a system that is intended to administer teaching activities at individua
 2. Discuss which objects belongs to the problem domain of this system, and what belongs to the application domain. Is there anything that belongs to both?
 	
 	**Problem Domain**
-	- Student (as a data object, personal data, enrollments)
+	- Student (as a data object, personal data, enrolments)
 	- Lecturer (as a data objects, which courses they teach)
 	- Course / Course offering
-	- Enrollment
+	- Enrolment
 	- Exam and grade
 	- Study programme
 	- Department
 
 	**Application Domain**
-	- Semester secretaries (use the system to administer courses, enrollemtns, etc.)
+	- Semester secretaries (use the system to administer courses, enrolemtns, etc.)
 	- Lecturers (use the system, e.g. to plan teaching or enter grades)
-	- Students (use the system to enroll in courses, view their schedule, etc.)
+	- Students (use the system to enrol in courses, view their schedule, etc.)
 
 	**Belongs to both?**
 	- Student
