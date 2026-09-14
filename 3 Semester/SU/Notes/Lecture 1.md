@@ -6,4 +6,8 @@ This module has the purpose of giving the student knowledge and skills in **mode
 ### What's a Model?
 *A representation of a part of the real world*
 
-Emphasises certain apsects, i.e. those useful for the current 
+Emphasises certain aspects, i.e. those useful for the current purpose
+
+
+### Why Modelling?
+- Provi
