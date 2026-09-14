@@ -48,3 +48,5 @@ Unified Modelling Language, creating OO structures since the late 90's
 	The organization that administrates, monitors or controls a problem domain
 
 
+### System Definition
+A Concise description of a computerizes
