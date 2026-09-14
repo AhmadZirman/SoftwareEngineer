@@ -60,3 +60,4 @@ FACTOR criterion:
 - **Responsibility:** The system overall responsibility in relation to its context
 
 #### Objects and Classes
+Consider: Objects that we can identify that should be administrated by the system
