@@ -44,5 +44,7 @@ Unified Modelling Language, creating OO structures since the late 90's
 ###### Problem Domain
 	Part of the context that is administered, monitored or controlled by a system
 
-####### Application Domain
+###### Application Domain
 	The organization that administrates, monitors or controls a problem domain
+
+
