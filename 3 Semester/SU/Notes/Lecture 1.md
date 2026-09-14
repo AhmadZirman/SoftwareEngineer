@@ -56,4 +56,7 @@ FACTOR criterion:
 - **Application Domain:** Parts of an organization that administrate, monitor or control a problem domain
 - **Condition:** Condition under which the system will be developed and used
 - **Technology:** Technology used to develop the system and technology on which the system will operate
-- **Objects:** Main objects in the problem domain (cond)
+- **Objects:** Main objects in the problem domain (consider the types of objects, i.e. the classes)
+- **Responsibility:** The system overall responsibility in relation to its context
+
+#### Objects and Classes
