@@ -6,4 +6,10 @@ Imagine a system that is intended to administer teaching activities at individua
 1. Identify objects relevant to consider for this system
 	Based on the description, the following objects seem relevant to consider:
 	- Student
-	- Lectur
+	- Lecturer
+	- Course
+	- Course offering (a specific instancce/class of a course in a given semester)
+	- Enrollment (a student's registration for a course)
+	- Exam / assessment
+	- Grade
+	- Stud
