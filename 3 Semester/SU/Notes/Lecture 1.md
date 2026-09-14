@@ -34,3 +34,12 @@ Unified Modelling Language, creating OO structures since the late 90's
 
 
 
+## Processes as Per the Course Book
+![[Pasted image 20260914122325.png]]
+
+
+
+
+## Problem domain and Application Domain
+#### Problem Domain
+	
