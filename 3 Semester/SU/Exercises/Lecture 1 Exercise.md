@@ -68,3 +68,24 @@ The system is responsible for maintaining consistent and up-to-date records of c
 
 
 # Exercise 1.3: SD - Semester Project
+Make a system definition of the system for your semester project. Use **FACTOR** to formulate the system definition.
+
+### FACTOR breakdown
+
+**Functionality**  
+The system supports registering residents' prescribed medications and daily care routines, scheduling and reminding staff of upcoming administrations, recording when a dose or routine has been completed (or missed), and providing an overview of adherence over time.
+
+**Application domain**  
+Care staff (nurses, care assistants) and possibly residents or their relatives at nursing homes and eldercare organisations in Aalborg, who use the system in their daily care work.
+
+**Conditions**  
+The system must fit into existing care routines without significantly increasing staff workload, must be usable by staff with varying levels of technical experience, and must comply with relevant data-protection requirements for handling sensitive health data (e.g. GDPR).
+
+**Technology**  
+A web-based (or tablet-friendly) client-server application, e.g. built with a Spring Boot backend and a JavaScript/HTML frontend, potentially with notification support for reminders.
+
+**Objects**  
+Resident, medication, care routine, schedule, administration record (log entry), staff member.
+
+**Responsibility**  
+The system is responsible for maintaining an accurate, up-to-date log of scheduled and completed medications/routines and for alerting staff to upcoming or missed tasks — but is not responsible for clinical decision-making (e.g. prescribing) or for the physical administration of medication itself.
