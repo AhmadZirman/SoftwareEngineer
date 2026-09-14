@@ -24,4 +24,13 @@ Unified Modelling Language, creating OO structures since the late 90's
 ![[Pasted image 20260914122131.png]]
 
 
-## A Classic Sequential Soft
+## A Classic Sequential Software Development Lifecycle (SDLC)
+![[Pasted image 20260914122217.png]]
+
+
+
+## A Classic Agile Software Development Lifecycle (SDLC)
+![[Pasted image 20260914122250.png]]
+
+
+
