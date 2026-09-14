@@ -51,3 +51,40 @@ The relational model was proposed by E. F. Codd at IBM in 19691 , and its key id
 The relational model is what virtually every mainstream database, including PostgreSQL, still uses today.
 
 ## Keys And Integrity Rules
+A table is technically just a set of tuples, but in practice we constantly need to answer questions like “give me the one row for student Anna Jensen.” The trouble is that two students could easily share the same name, so names alone cannot reliably identify a row. Keys are how the relational model guarantees that we can always uniquely identify - and refer back to - one specific tuple.
+
+#### Super Key
+A superkey is any set of attributes that uniquely identifies a tuple in a relation - no two rows can ever share the same combination of values for those attributes. For Student:
+```MD
+{student_id} // Is a superkey
+{student_id, email} // IS also a superkey
+{student_id, first_name, last_name} // Is also a superkey
+```
+Once a set of attributes is already unique, adding more attributes on top of it is still unique - so it is still a superkey. That is why a relation can have many superkeys at once.
+
+
+#### Candidate Key
+A candidate key is a minimal superkey - remove any single attribute from it and it stops being unique.
+```MD
+{student_id} // on its own is a candidate key for Student 
+{student_id, email} // is not a candidate key: it is a valid superkey, but not minimal, since {student_id} alone already does the job
+{email} // could also qualify as a candidate key, provided every student has a unique, non-null email address
+```
+A table can have several candidate keys at once; the database designer then picks one of them to serve as the primary key.
+
+
+#### Primary Key
+The primary key is whichever candidate key gets chosen as the main identifier for a table, and every table should have exactly one. Once you declare a primary key, the DBMS automatically enforces two guarantees on it:
+```MD
+uniqueness // no two rows may ever share the same primary key value
+not-null // a primary key value must always be present
+```
+For our running example, Student.student_id and Programme.programme_id will be our primary keys.
+
+
+#### Foreign Key
+A foreign key is an attribute - or set of attributes - in one table that refers to the primary key of another table (or, occasionally, the same table). It is how the relational model represents relationships between tables without duplicating data.
+
+A foreign key does not strictly have to reference a primary key - any *UNIQUE*-constrained column works, since guaranteed uniqueness is the real requirement. Every foreign key in this course references a primary key, the common case.
+
+In our example, *Student.programme_id* refers to *Programme.programme_id*: instead of copying the full programme name and duration into every single student row, we just store a reference to the programme they are enrolled in.
