@@ -49,4 +49,9 @@ Unified Modelling Language, creating OO structures since the late 90's
 
 
 ### System Definition
-A Concise description of a computerizes
+A Concise description of a computerized system expressed in natural language.
+
+FACTOR criterion:
+- **Functionality:** System functions to support the application domain tasks
+- **Application Domain:** Parts of an organization that administrate, monitor or control a problem domain
+- **Condition**
