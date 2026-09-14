@@ -54,4 +54,6 @@ A Concise description of a computerized system expressed in natural language.
 FACTOR criterion:
 - **Functionality:** System functions to support the application domain tasks
 - **Application Domain:** Parts of an organization that administrate, monitor or control a problem domain
-- **Condition**
+- **Condition:** Condition under which the system will be developed and used
+- **Technology:** Technology used to develop the system and technology on which the system will operate
+- **Objects:** Main objects in the problem domain (cond)
