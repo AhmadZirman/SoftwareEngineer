@@ -37,4 +37,10 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Student
 	- Lecturer
 	In the **problem domain**, they are objects the system hold data about (which courses a lecturer teaches, which courses as a student is enrolled in)
+	
 	In the **application domain**, they are simultaneously actors who actively use the system themselves (the lecturer enters grades, the student enrolled in a course)
+	
+	They are both the subject of administration and users of the system.
+
+
+# Exercise 1.2
