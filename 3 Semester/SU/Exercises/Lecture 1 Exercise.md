@@ -29,7 +29,7 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Department
 
 	**Application Domain**
-	- Semester secretaries (use the system to administer courses, enrolemtns, etc.)
+	- Semester secretaries (use the system to administer courses, enrolmetns, etc.)
 	- Lecturers (use the system, e.g. to plan teaching or enter grades)
 	- Students (use the system to enrol in courses, view their schedule, etc.)
 
@@ -61,10 +61,10 @@ The system must be introduced without disrupting ongoing teaching activities, mu
 The system is expected to be a web-based application accessible to secretaries, lecturers, and students, and must be able to exchange data (e.g. schedules) with the external, centralised room-booking system.
 
 **Objects**  
-Student, lecturer, course, course offering, enrollment, exam, grade, and study programme.
+Student, lecturer, course, course offering, enrolment, exam, grade, and study programme.
 
 **Responsibility**  
-The system is responsible for maintaining consistent and up-to-date records of courses, enrollments, and grades, and for supporting correct and coordinated planning of teaching activities across departments - but is _not_ responsible for room allocation or booking.
+The system is responsible for maintaining consistent and up-to-date records of courses, enrolments, and grades, and for supporting correct and coordinated planning of teaching activities across departments - but is _not_ responsible for room allocation or booking.
 
 
 # Exercise 1.3: SD - Semester Project
