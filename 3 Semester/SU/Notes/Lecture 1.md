@@ -2,3 +2,8 @@
 
 # Goals
 This module has the purpose of giving the student knowledge and skills in **modelling** the **structure** and **behaviour** of objects within problem and application domains. Models will be applied to create a **component design** specifying the **architecture** of a given system.
+
+### What's a Model?
+*A representation of a part of the real world*
+
+Emphasises certain apsects, i.e. those useful for the current 
