@@ -46,3 +46,22 @@ Imagine a system that is intended to administer teaching activities at individua
 # Exercise 1.2: System Definition
 Make a system definition of the system to administer a university (same system as imagined in exercise 1.1). Use **FACTOR** to formulate the system definition.
 
+### FACTOR breakdown
+
+**Functionality**  
+The system supports registering and maintaining course information, enrolling students in courses, planning and scheduling the delivery of teaching, recording exams and grades, and handling general administrative processes related to students and lecturers.
+
+**Application domain**  
+The semester secretaries, lecturers, and students within the individual departments of the university (e.g. Department of Computer Science, Department of Electronic Systems) who carry out and support the administration and delivery of courses.
+
+**Conditions**  
+The system must be introduced without disrupting ongoing teaching activities, must be usable across multiple departments with potentially different administrative practices, and must integrate with the university's separate, centralised room-booking system rather than duplicating its functionality.
+
+**Technology**  
+The system is expected to be a web-based application accessible to secretaries, lecturers, and students, and must be able to exchange data (e.g. schedules) with the external, centralised room-booking system.
+
+**Objects**  
+Student, lecturer, course, course offering, enrollment, exam, grade, and study programme.
+
+**Responsibility**  
+The system is responsible for maintaining consistent and up-to-date records of courses, enrollments, and grades, and for supporting correct and coordinated planning of teaching activities across departments - but is _not_ responsible for room allocation or booking.
