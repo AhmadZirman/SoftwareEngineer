@@ -1,4 +1,4 @@
-
+[[SD 01 - Introduction.pdf]]
 
 # Exercise 1.1: PD vs AD
 Imagine a system that is intended to administer teaching activities at individual departments of a university (Department of Computer Science, Electronic Systems etc.). It should be able to handle and organize all central administrative processes around students and lecturers as well as the planning and delivery of courses. The system will be used by semester secretaries, lecturers and students. Note however, that booking of rooms will handled by a different centralised system as each department is able to book rooms across all other departments.
@@ -73,19 +73,19 @@ Make a system definition of the system for your semester project. Use **FACTOR**
 ### FACTOR breakdown
 
 **Functionality**  
-The system supports registering residents' prescribed medications and daily care routines, scheduling and reminding staff of upcoming administrations, recording when a dose or routine has been completed (or missed), and providing an overview of adherence over time.
+System functions to support the application domain tasks - here: registering residents' prescribed medications and daily care routines, generating schedules, reminding staff of upcoming administrations, logging completed/missed doses, and providing an adherence overview.
 
 **Application domain**  
-Care staff (nurses, care assistants) and possibly residents or their relatives at nursing homes and eldercare organisations in Aalborg, who use the system in their daily care work.
+Parts of an organization that administrate, monitor or control a problem domain - here: the care staff (nurses, care assistants) at nursing homes/eldercare organisations in Aalborg who plan and carry out medication and routine administration.
 
 **Conditions**  
-The system must fit into existing care routines without significantly increasing staff workload, must be usable by staff with varying levels of technical experience, and must comply with relevant data-protection requirements for handling sensitive health data (e.g. GDPR).
+Conditions under which the system will be developed and used - the system must integrate into existing daily care routines without adding significant workload, be usable by staff with varying technical skill levels, and comply with GDPR and other regulations on handling sensitive health data.
 
 **Technology**  
-A web-based (or tablet-friendly) client-server application, e.g. built with a Spring Boot backend and a JavaScript/HTML frontend, potentially with notification support for reminders.
+Technology used to develop the system and technology on which it will operate - a client-server web application (e.g. Spring Boot backend with a JavaScript/HTML frontend), accessible via tablet or PC in the care facility, with support for notifications/reminders.
 
 **Objects**  
-Resident, medication, care routine, schedule, administration record (log entry), staff member.
+Main objects in the problem domain (the classes) - Resident, Medication, Care Routine, Schedule, Administration Record, Staff Member.
 
 **Responsibility**  
-The system is responsible for maintaining an accurate, up-to-date log of scheduled and completed medications/routines and for alerting staff to upcoming or missed tasks — but is not responsible for clinical decision-making (e.g. prescribing) or for the physical administration of medication itself.
+The system's overall responsibility in relation to its context - the system is responsible for maintaining an accurate, up-to-date log of scheduled and completed medications/routines and alerting staff to upcoming or missed tasks; it is _not_ responsible for clinical decisions (e.g. prescribing) or physically administering medication.
