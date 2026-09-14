@@ -10,4 +10,12 @@ Emphasises certain aspects, i.e. those useful for the current purpose
 
 
 ### Why Modelling?
-- Provi
+- Provides Overview
+- Supports Communication
+- Prompts Questions
+- Ensures Structure
+- Supports Collaboration
+
+
+## UML
+Unified Modelling Language, creating OO structures since the la
