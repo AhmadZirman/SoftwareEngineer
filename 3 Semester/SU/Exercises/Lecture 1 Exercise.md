@@ -12,4 +12,7 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Enrollment (a student's registration for a course)
 	- Exam / assessment
 	- Grade
-	- Stud
+	- Study Programme / Curriculum
+	- Department (Computer Science, Electronic System, etc.)
+	- Semester secretary (User/role)
+	- Schedule / teaching plan (the *planning* of teaching, not room booking itself)
