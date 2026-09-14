@@ -34,3 +34,6 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Students (use the system to enroll in courses, view their schedule, etc.)
 
 	**Belongs to both?**
+	- Student
+	- Lecturer
+	In h
