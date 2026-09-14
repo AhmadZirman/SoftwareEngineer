@@ -29,10 +29,6 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Department
 
 	**Application Domain**
-	- Student (as a data object, personal data, enrollments)
-	- Lecturer (as a data objects, which courses they teach)
-	- Course / Course offering
-	- Enrollment
-	- Exam and grade
-	- Study programme
-	- Department
+	- Semester secretaries (use the system to administer courses, enrollemtns, etc.)
+	- Lecturers (use the system, e.g. to plan teaching or enter grades)
+	- Students (use the system to enroll in courses, view their schedule, etc.)
