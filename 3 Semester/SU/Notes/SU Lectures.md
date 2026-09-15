@@ -9,4 +9,4 @@
 # Lecture 2
 [[Software Engineering/3 Semester/SU/Notes/Lecture 2|Lecture 2]]
 [[SD02 - Classes_Events_Structure.pdf|Lecture 2 Slides]]
-[[]]
+[[L]]
