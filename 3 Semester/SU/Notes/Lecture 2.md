@@ -94,7 +94,13 @@ Note: there are other relations possible, for example "a Course Has-A Lecturer" 
 ### Full Structure Class Diagram (Moodle example)
 Combines all classes, clusters (Persons, Coordination tools), and their generalization, aggregation, and association relations into one diagram.
 
-![[Pasted image structure_class_diagram_moodle.png]]
+![[Pasted image 20260915205922.png]]
+![[Pasted image 20260915205937.png]]
+
+
+
+
+
 
 ## Evaluation Criteria
 
