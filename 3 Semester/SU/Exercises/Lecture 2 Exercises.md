@@ -13,8 +13,10 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 	- **Shift** - a scheduled period a volunteer works
 	- **Member/Guest** - the person buying drinks
 	- **Product** (beer, soda, snacks) - items sold across the counter
-	- **Stock/Inventory** — quantity of each product on hand
-	- **Sale** — a transaction where a product is exchanged for payment
-	- **Tab** — a running credit balance for a member who pays later
-	- **Price list** — current prices for products
-	- **Delivery** — incoming stock from a supplier
+	- **Stock/Inventory** - quantity of each product on hand
+	- **Sale** - a transaction where a product is exchanged for payment
+	- **Tab** - a running credit balance for a member who pays later
+	- **Price list** - current prices for products
+	- **Delivery** - incoming stock from a supplier
+
+2. 
