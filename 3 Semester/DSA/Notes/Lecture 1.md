@@ -128,7 +128,7 @@ Student: {[ student_id: int, first_name: string, last_name: string, email: strin
 ## SQL from the Live Demo
 
 #### CREATE TABLE
-```sql title:CREATE T
+```sql title:CREATE-TABLE
 CREATE TABLE Programme (
     programme_id    SERIAL PRIMARY KEY,
     programme_name  VARCHAR(100) NOT NULL,
@@ -177,7 +177,7 @@ ORDER BY birth_date;
 ```
 
 #### A Taste of JOIN (proper treatment in Lecture 5)
-```sql
+```sql title:JOIN
 SELECT s.first_name, s.last_name, p.programme_name
 FROM Student s, Programme p
 WHERE s.programme_id = p.programme_id;
