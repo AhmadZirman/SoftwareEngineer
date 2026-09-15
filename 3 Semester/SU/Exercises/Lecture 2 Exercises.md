@@ -42,9 +42,13 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 
 | Events        | Volunteer | Shift | Product | Sale | Tab |
 | ------------- | --------- | ----- | ------- | ---- | --- |
-| Signed up     |           |       |         |      |     |
-| Started Shift |           |       |         |      |     |
-| Sold          |           |       |         |      |     |
-| Restocked     |           |       |         |      |     |
-|               |           |       |         |      |     |
-|               |           |       |         |      |     |
+| Signed up     | X         | X     |         |      |     |
+| Started Shift | X         | X     |         |      |     |
+| Sold          |           |       | X       | X    |     |
+| Restocked     |           |       | X       |      |     |
+| Paid          |           |       |         | X    | X   |
+| Ran Out       |           |       | X       |      |     |
+
+4. Applying the Affirmation Criteria
+	- Sold, Paid, Restocked, 
+
