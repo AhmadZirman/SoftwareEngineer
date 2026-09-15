@@ -20,4 +20,9 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 	- **Delivery** - incoming stock from a supplier
 
 2. Problem Domain vs. Application Domain
+	- Product
+	- Stock
+	- Sale
+	- Tab
+	- Price list
 	- 
