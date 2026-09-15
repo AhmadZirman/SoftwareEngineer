@@ -19,4 +19,5 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 	- **Price list** - current prices for products
 	- **Delivery** - incoming stock from a supplier
 
-2. 
+2. Problem Domain vs. Application Domain
+	- 
