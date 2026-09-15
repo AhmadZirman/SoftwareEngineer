@@ -6,6 +6,6 @@
 [[Lecture 1 Exercises]]
 
 ### Lecture 2 and Slides
-[[Lecture 2]]
+[[Software Engineering/3 Semester/DSA/Notes/Lecture 2]]
 [[Lecture2-ER-Diagrams.pdf|Slides]]
 [[Lecture 2 Exercise]]
