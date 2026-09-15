@@ -8,8 +8,8 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Student
 	- Lecturer
 	- Course
-	- Course offering (a specific instancce/class of a course in a given semester)
-	- Enrollment (a student's registration for a course)
+	- Course offering (a specific instance/class of a course in a given semester)
+	- Enrolment (a student's registration for a course)
 	- Exam / assessment
 	- Grade
 	- Study Programme / Curriculum
@@ -29,7 +29,7 @@ Imagine a system that is intended to administer teaching activities at individua
 	- Department
 
 	**Application Domain**
-	- Semester secretaries (use the system to administer courses, enrolmetns, etc.)
+	- Semester secretaries (use the system to administer courses, enrolments, etc.)
 	- Lecturers (use the system, e.g. to plan teaching or enter grades)
 	- Students (use the system to enrol in courses, view their schedule, etc.)
 
@@ -88,4 +88,4 @@ Technology used to develop the system and technology on which it will operate - 
 Main objects in the problem domain (the classes) - Resident, Medication, Care Routine, Schedule, Administration Record, Staff Member.
 
 **Responsibility**  
-The system's overall responsibility in relation to its context - the system is responsible for maintaining an accurate, up-to-date log of scheduled and completed medications/routines and alerting staff to upcoming or missed tasks; it is _not_ responsible for clinical decisions (e.g. prescribing) or physically administering medication.
+The system's overall responsibility in relation to its context - the system is responsible for maintaining an accurate, up-to-date log of scheduled and completed medications/routines and alerting staff to upcoming or missed tasks; it is _not_ responsible for clinical decisions (e.g. prescribing) or physically administering medication.s
