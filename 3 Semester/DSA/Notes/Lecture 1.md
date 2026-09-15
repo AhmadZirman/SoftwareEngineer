@@ -119,16 +119,16 @@ A compact way to sketch a design on paper, before writing full `CREATE TABLE` st
 - **→ RelationName** → foreign key, referencing that relation's primary key
 - No underline, no arrow → an ordinary attribute
 
-\`\`\`
+```
 Programme: {[ programme_id: int, programme_name: string, duration_years: int ]}
 Student: {[ student_id: int, first_name: string, last_name: string, email: string, 
              birth_date: date, programme_id → Programme ]}
-\`\`\`
+```
 
 ## SQL from the Live Demo
 
 #### CREATE TABLE
-\`\`\`sql
+```sql
 CREATE TABLE Programme (
     programme_id    SERIAL PRIMARY KEY,
     programme_name  VARCHAR(100) NOT NULL,
@@ -143,7 +143,7 @@ CREATE TABLE Student (
     birth_date    DATE,
     programme_id  INTEGER NOT NULL REFERENCES Programme(programme_id)
 );
-\`\`\`
+```
 - `SERIAL` → auto-incrementing integer; PostgreSQL fills it in automatically
 - `PRIMARY KEY` → enforces entity integrity for free
 - `NOT NULL` → value always required
@@ -151,16 +151,16 @@ CREATE TABLE Student (
 - `REFERENCES` → declares the foreign key
 
 #### INSERT
-\`\`\`sql
+```sql
 INSERT INTO Programme (programme_name, duration_years) VALUES
     ('Software Engineering', 3),
     ('Computer Science', 2),
     ('Data Science', 2);
-\`\`\`
+```
 Note: `programme_id` is not specified - PostgreSQL assigns it automatically (1, 2, 3...) via `SERIAL`.
 
 #### SELECT (with WHERE and ORDER BY)
-\`\`\`sql
+```sql
 -- all rows, all columns
 SELECT * FROM Student;
 
@@ -174,12 +174,12 @@ SELECT first_name, last_name, birth_date
 FROM Student
 WHERE programme_id = 1
 ORDER BY birth_date;
-\`\`\`
+```
 
 #### A Taste of JOIN (proper treatment in Lecture 5)
-\`\`\`sql
+```sql
 SELECT s.first_name, s.last_name, p.programme_name
 FROM Student s, Programme p
 WHERE s.programme_id = p.programme_id;
-\`\`\`
+```
 Combines rows from two tables using the FK relationship. Read aloud: for every student, look up the name of the programme they're enrolled in.
