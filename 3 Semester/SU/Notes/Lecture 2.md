@@ -62,17 +62,27 @@ Example class diagram for the Hair Salon System, showing structural relations be
 
 ![[Pasted image 20260915205716.png]]
 
+
 ### Classes, Moodle Example
 Identified classes: Student, Semester, Room, Lecturer, Secretary, Page Resource, Document, File, Teaching Assistant, Employee, Quiz, Course, Calendar, Person, Semester Bulletin.
 ![[Pasted image 20260915205922.png]]
+
+
 ### Classes, Quick Clustering
 The identified classes can be grouped into rough clusters before structuring them properly, for example a Persons group and a Coordination tools group.
+![[Pasted image 20260915210023.png]]
+
+
+
 
 ## Structure Through a Class Diagram
 
 Class: A description of a collection of objects sharing structure, behavioural pattern and attributes.
 
 Cluster: A collection of related classes.
+
+
+
 
 ### Generalization (Is-A)
 A general class (superclass) describes properties common to a group of specialized classes (subclasses).
@@ -83,6 +93,7 @@ Example: Student, Lecturer, Secretary, and Teaching Assistant are all specializa
 A superior object (the whole) consists of a number of inferior objects (parts).
 ![[Pasted image 20260915210002.png]]
 Example: A Semester has 1..* Students and 1..* Rooms. A Course has 1..* Page Resources and a Calendar has 0..* Semester Bulletins.
+
 
 ### Association ("Just-Related")
 A meaningful relation between a number of objects. Not a defining property between objects.
@@ -99,7 +110,7 @@ Combines all classes, clusters (Persons, Coordination tools), and their generali
 
 
 
-![[Pasted image 20260915210023.png]]
+
 ![[Pasted image 20260915210032.png]]
 
 
