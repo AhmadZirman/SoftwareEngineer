@@ -128,7 +128,7 @@ Student: {[ student_id: int, first_name: string, last_name: string, email: strin
 ## SQL from the Live Demo
 
 #### CREATE TABLE
-```sql
+```sql title:CREATE T
 CREATE TABLE Programme (
     programme_id    SERIAL PRIMARY KEY,
     programme_name  VARCHAR(100) NOT NULL,
@@ -151,7 +151,7 @@ CREATE TABLE Student (
 - `REFERENCES` → declares the foreign key
 
 #### INSERT
-```sql
+```sql title:INSERT
 INSERT INTO Programme (programme_name, duration_years) VALUES
     ('Software Engineering', 3),
     ('Computer Science', 2),
@@ -160,7 +160,7 @@ INSERT INTO Programme (programme_name, duration_years) VALUES
 Note: `programme_id` is not specified - PostgreSQL assigns it automatically (1, 2, 3...) via `SERIAL`.
 
 #### SELECT (with WHERE and ORDER BY)
-```sql
+```sql title:SELECT
 -- all rows, all columns
 SELECT * FROM Student;
 
