@@ -50,5 +50,5 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 | Ran Out       |           |       | X       |      |     |
 
 4. Applying the Affirmation Criteria
-	- Sold, Paid, Restocked, 
+	- Sold, Paid, Restocked, Ran out: 
 
