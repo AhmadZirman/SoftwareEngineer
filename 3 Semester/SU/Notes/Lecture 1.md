@@ -51,8 +51,7 @@ The overall SD process cycles between four activities.
 - Application domain analysis produces Requirements for use (Usage, Functions, Interfaces)
 - Architectural design produces Specifications of architecture (Criteria, Components, Processes)
 - Component design produces Specifications of components (Model component, Function component, Connecting components)
-
-![[Pasted image 20260914_main_activities.png]]
+![[Pasted image 20260915205015.png]]
 
 ## A Classic Sequential Software Development Lifecycle (SDLC)
 Requirements Engineering, then Design Engineering, then Coding, then Testing, then Operation and Maintenance.
@@ -77,8 +76,7 @@ Tools: Claude Code, OpenAI Codex, MS Co-Pilot, etc.
 Core loop: Intent, then Plan, then Human Gates, then Agent Loop. The Agent Loop consists of Generate, Verify, Correct.
 
 ## Problem Domain and Application Domain
-
-![[Pasted image 20260914_problem_application_domain.png]]
+![[Pasted image 20260915205059.png]]
 
 ### Problem Domain
 Part of the context that is administered, monitored or controlled by a system.
@@ -113,26 +111,3 @@ Classes: A description of a collection of objects sharing structure, behavioral 
 | Showing  | Tuesday 20-11-2025 6pm, Friday 10-10-2025 5pm, Friday 10-10-2025 7pm    |
 | Ticket   | VIP, Standard Adult, Standard Child                                     |
 | Theater  | Nordic Film Aalborg, Nordic Film Aarhus                                 |
-
----
-
-# Exercises (Lecture 1)
-
-## Exercise 1.1, Problem Domain vs. Application Domain
-Imagine a system that is intended to administer teaching activities at individual departments of a university (Department of Computer Science, Electronic Systems etc.). It should be able to handle and organize all central administrative processes around students and lecturers as well as the planning and delivery of courses. The system will be used by semester secretaries, lecturers and students. Note however, that booking of rooms will be handled by a different centralised system, as each department is able to book rooms across all other departments.
-
-1. Identify objects relevant to consider for this system.
-2. Discuss which objects belong to the problem domain of this system, and what belongs to the application domain. Is there anything that belongs to both?
-
-## Exercise 1.2, System Definition
-Make a system definition of the system to administer a university (same system as imagined in exercise 1.1). Use FACTOR to formulate the system definition.
-
-## Exercise 1.3, System Definition (Semester Project)
-Make a system definition of the system for your semester project. Use FACTOR to formulate the system definition.
-
----
-
-## Supplementary Material
-- Chapter 3: Classes
-- Chapter 4: Structure
-- Video series 3 and 4
