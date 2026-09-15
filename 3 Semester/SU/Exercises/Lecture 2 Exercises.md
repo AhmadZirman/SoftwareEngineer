@@ -29,3 +29,6 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 	- Delivery
 	- Shift
 
+	**Application Domain**
+	- Volunteer/Bartender (Register sales, updates stock)
+	- 
