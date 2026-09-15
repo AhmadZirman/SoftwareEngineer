@@ -60,7 +60,7 @@ For objects, ask:
 
 Example class diagram for the Hair Salon System, showing structural relations between Customer, Appointment, Employee (Apprentice, Assistant), Day Schedule, Time Period, and Work, Free, Other.
 
-![[Pasted image class_diagram_hair_salon.png]]
+![[Pasted image 20260915205716.png]]
 
 ### Classes, Moodle Example
 Identified classes: Student, Semester, Room, Lecturer, Secretary, Page Resource, Document, File, Teaching Assistant, Employee, Quiz, Course, Calendar, Person, Semester Bulletin.
