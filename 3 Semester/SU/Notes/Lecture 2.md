@@ -78,16 +78,15 @@ The identified classes can be grouped into rough clusters before structuring the
 ## Structure Through a Class Diagram
 
 Class: A description of a collection of objects sharing structure, behavioural pattern and attributes.
-
+![[Pasted image 20260915210400.png]]
 Cluster: A collection of related classes.
-
-
 
 
 ### Generalization (Is-A)
 A general class (superclass) describes properties common to a group of specialized classes (subclasses).
 ![[Pasted image 20260915205952.png]]
 Example: Student, Lecturer, Secretary, and Teaching Assistant are all specializations of Employee, which is itself a specialization of Person.
+
 
 ### Aggregation (Has-A)
 A superior object (the whole) consists of a number of inferior objects (parts).
@@ -102,15 +101,10 @@ Example: A Room is associated with 1..* Employees, and an Employee is associated
 ![[Pasted image 20260915210010.png]]
 Note: there are other relations possible, for example "a Course Has-A Lecturer" or "a Semester Has-A Semester Bulletin", but the example is kept simple for pedagogical purposes.
 
+
+
 ### Full Structure Class Diagram (Moodle example)
 Combines all classes, clusters (Persons, Coordination tools), and their generalization, aggregation, and association relations into one diagram.
-
-
-
-
-
-
-
 ![[Pasted image 20260915210032.png]]
 
 
