@@ -6,3 +6,6 @@
 
 
 # Lecture 2 and Slides
+[[Lecture 2]]
+[[Lecture2-ER-Diagrams.pdf]]
+[[]]

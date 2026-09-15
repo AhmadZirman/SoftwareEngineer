@@ -1,5 +1,4 @@
 [[exerciseSheet-02-ER-Diagrams-SOLUTIONS.pdf]]
-# Exercise Sheet 2: ER Diagrams (with Solutions)
 
 ## Exercise 1: Warm-up - Entities, Attributes, and a Relationship
 
