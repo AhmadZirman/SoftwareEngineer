@@ -7,3 +7,6 @@ Identify objects and events in the problem domain that are administrated, monito
 For each identified object, argue why this belongs to the **problem domain**. Any objects that belongs to both the **problem domain** and the **application domain**? Argue why that is the case.
 
 Make an **Event Table** to represent your findings and use the Affirmation Criteria to assess correctness of Classes and Events.
+
+1. Objects identified
+	- 
