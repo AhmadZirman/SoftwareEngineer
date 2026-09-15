@@ -1,4 +1,3 @@
-# Lecture 1 - Introduction to System Development
 
 ## Course Structure
 - 11 Sessions
@@ -17,12 +16,12 @@ Emphasises certain aspects, i.e. those useful for the current purpose.
 ### Different Models (example)
 Different models of the same building (AAU Cassiopeia) can emphasize different things: a simplified map, a detailed map, or a satellite photo, depending on what's useful for the current purpose.
 
-![[Pasted image 20260914_different_models.png]]
+![[Pasted image 20260915205138.png]]
 
 ### A Part of a Model, Behind the Scenes
 Example class diagram for the Hair Salon system (from the course book), showing structural relations between classes: Customer, Appointment, Employee (Apprentice/Assistant), Day Schedule, Time Period, Work/Free/Other.
 
-![[Pasted image 20260914_hair_salon_class_diagram.png]]
+![[Pasted image 20260915205157.png]]
 
 ## Why Modelling?
 - Provides Overview
