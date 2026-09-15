@@ -35,3 +35,11 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 
 	**Belongs to both**
 	- Vounteer/Bartender: in the PD they are a data object (which shifts they've worked, which sales they registered); in the AD they are the active user who operates the register and updates stock during their shift. Same double role as Student/Lecturer in the Exercise 1.1 example.
+
+
+
+3. Event Table
+
+| Events | Volunteer |     |
+| ------ | --------- | --- |
+|        |           |     |
