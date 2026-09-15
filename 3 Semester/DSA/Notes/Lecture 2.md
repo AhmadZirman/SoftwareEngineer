@@ -172,7 +172,7 @@ Same shape of problem as `Copy`/`Book`:
 - `Contains` - the identifying relationship, 1:N
 
 ```MD
-Order --- Contains --- OrderLine
+Order -||-- Contains --|<- OrderLine
 ```
 Both ends mandatory here: every line needs exactly one order, AND every order needs at least one line (assumption). Standard shape of an identifying relationship: strong entity on one end, weak entity on the other, both total.
 
