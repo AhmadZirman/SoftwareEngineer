@@ -89,13 +89,13 @@ Three patterns:
 **1:1** - one instance of A relates to at most one instance of B, and vice versa.
 Example: a person has at most one passport; a passport belongs to exactly one person.
 ```MD
-Person --- Holds --- Passport   // double bar at both ends
+Person -||-- Holds --||- Passport   // double bar at both ends
 ```
 Rarest pattern in practice - often a sign the two entity types should just be merged.
 
 **1:N** - one instance of A relates to many instances of B; each B relates to only one A. The most common cardinality.
 ```MD
-Programme --- Enrols --- Student   // double bar on "one" side, crow's foot on "many" side
+Programme -||-- Enrols --- Student   // double bar on "one" side, crow's foot on "many" side
 ```
 This is exactly `Student.programme_id REFERENCES Programme.programme_id` - the crow's foot side is where the foreign key lives later.
 
