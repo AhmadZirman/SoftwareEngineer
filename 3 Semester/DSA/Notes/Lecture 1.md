@@ -50,7 +50,7 @@ The relational model was proposed by E. F. Codd at IBM in 19691 , and its key id
 
 The relational model is what virtually every mainstream database, including PostgreSQL, still uses today.
 
-## Keys And Integrity Rules
+## Keys
 A table is technically just a set of tuples, but in practice we constantly need to answer questions like “give me the one row for student Anna Jensen.” The trouble is that two students could easily share the same name, so names alone cannot reliably identify a row. Keys are how the relational model guarantees that we can always uniquely identify - and refer back to - one specific tuple.
 
 #### Super Key
@@ -99,7 +99,7 @@ Analogy from OOP: the schema is like a class definition, and an instance is like
 - **Degree (arity)**: the number of attributes a relation has - `Student(student_id, first_name, last_name, email)` has degree 4.
 - **Cardinality**: the number of tuples a relation currently holds - if Student has 30 rows, its cardinality is 30.
 
-Cardinality changes constantly as data is added/removed; degree only changes when you deliberately alter the schema.
+Cardinality changes constantly as data is added/removed. Degree only changes when you deliberately alter the schema.
 
 ## Integrity Rules
 The DBMS enforces three integrity rules automatically, so your data can never silently drift into inconsistency:
