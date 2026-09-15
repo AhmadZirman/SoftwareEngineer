@@ -96,9 +96,11 @@ Combines all classes, clusters (Persons, Coordination tools), and their generali
 
 ![[Pasted image 20260915205922.png]]
 ![[Pasted image 20260915205937.png]]
-
-
-
+![[Pasted image 20260915205952.png]]
+![[Pasted image 20260915210002.png]]
+![[Pasted image 20260915210010.png]]
+![[Pasted image 20260915210023.png]]
+![[Pasted image 20260915210032.png]]
 
 
 
