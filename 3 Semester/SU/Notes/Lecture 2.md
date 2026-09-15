@@ -29,7 +29,7 @@ Example, Event table for the Hair Salon System.
 | graduated |          |           | x          |             |
 | agreed    |          |           | x          | x           |
 
-![[Pasted image event_table_hair_salon.png]]
+![[Pasted image 20260915205807.png]]
 
 A second example, using a Moodle style problem domain.
 
