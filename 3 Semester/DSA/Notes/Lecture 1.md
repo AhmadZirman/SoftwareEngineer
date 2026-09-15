@@ -132,7 +132,7 @@ Student: {[ student_id: int, first_name: string, last_name: string, email: strin
 CREATE TABLE Programme (
     programme_id    SERIAL PRIMARY KEY,
     programme_name  VARCHAR(100) NOT NULL,
-    duration_years  INTEGER NOT NULL
+       duration_years  INTEGER NOT NULL
 );
 
 CREATE TABLE Student (
