@@ -31,4 +31,7 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 
 	**Application Domain**
 	- Volunteer/Bartender (Register sales, updates stock)
-	- 
+	- Treasurer (reconciles tabs, adjusts prices)
+
+	**Belongs to both**
+	- Vounteer/Bartender
