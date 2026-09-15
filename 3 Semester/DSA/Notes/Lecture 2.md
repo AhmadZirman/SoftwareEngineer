@@ -95,13 +95,13 @@ Rarest pattern in practice - often a sign the two entity types should just be me
 
 **1:N** - one instance of A relates to many instances of B; each B relates to only one A. The most common cardinality.
 ```MD
-Programme -||-- Enrols --- Student   // double bar on "one" side, crow's foot on "many" side
+Programme -||-- Enrols --|<- Student   // double bar on "one" side, crow's foot on "many" side
 ```
 This is exactly `Student.programme_id REFERENCES Programme.programme_id` - the crow's foot side is where the foreign key lives later.
 
 **M:N** - many instances of A relate to many instances of B, in both directions.
 ```MD
-Student --- Takes --- Course   // crow's foot at both ends
+Student ->|-- Takes --|<- Course   // crow's foot at both ends
 ```
 Our own example: `Book` and `Author` via `Writes` - a book may have several authors, an author several books.
 
@@ -122,7 +122,7 @@ Crow's foot: bar = mandatory (total), circle = optional (partial).
 
 **Worked example - Book and Copy, related by Has:**
 ```MD
-Book --- Has --- Copy
+Book -||-- Has --*<- Copy
 ```
 - Near `Book`: double bar → every `Copy` has exactly one `Book` → makes `Copy` **total**
 - Near `Copy`: circle-plus-fork → a `Book` can have zero or many copies → makes `Book` **partial**
