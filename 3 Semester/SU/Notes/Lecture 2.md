@@ -64,7 +64,7 @@ Example class diagram for the Hair Salon System, showing structural relations be
 
 ### Classes, Moodle Example
 Identified classes: Student, Semester, Room, Lecturer, Secretary, Page Resource, Document, File, Teaching Assistant, Employee, Quiz, Course, Calendar, Person, Semester Bulletin.
-
+![[Pasted image 20260915205922.png]]
 ### Classes, Quick Clustering
 The identified classes can be grouped into rough clusters before structuring them properly, for example a Persons group and a Coordination tools group.
 
@@ -76,29 +76,29 @@ Cluster: A collection of related classes.
 
 ### Generalization (Is-A)
 A general class (superclass) describes properties common to a group of specialized classes (subclasses).
-
+![[Pasted image 20260915205952.png]]
 Example: Student, Lecturer, Secretary, and Teaching Assistant are all specializations of Employee, which is itself a specialization of Person.
 
 ### Aggregation (Has-A)
 A superior object (the whole) consists of a number of inferior objects (parts).
-
+![[Pasted image 20260915210002.png]]
 Example: A Semester has 1..* Students and 1..* Rooms. A Course has 1..* Page Resources and a Calendar has 0..* Semester Bulletins.
 
 ### Association ("Just-Related")
 A meaningful relation between a number of objects. Not a defining property between objects.
 
 Example: A Room is associated with 1..* Employees, and an Employee is associated with 0..* Courses. This is the lecturer's home made term for relations that are neither generalization nor aggregation.
-
+![[Pasted image 20260915210010.png]]
 Note: there are other relations possible, for example "a Course Has-A Lecturer" or "a Semester Has-A Semester Bulletin", but the example is kept simple for pedagogical purposes.
 
 ### Full Structure Class Diagram (Moodle example)
 Combines all classes, clusters (Persons, Coordination tools), and their generalization, aggregation, and association relations into one diagram.
 
-![[Pasted image 20260915205922.png]]
-![[Pasted image 20260915205937.png]]
-![[Pasted image 20260915205952.png]]
-![[Pasted image 20260915210002.png]]
-![[Pasted image 20260915210010.png]]
+
+
+
+
+
 ![[Pasted image 20260915210023.png]]
 ![[Pasted image 20260915210032.png]]
 
