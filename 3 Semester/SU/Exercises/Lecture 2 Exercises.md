@@ -40,6 +40,6 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 
 3. Event Table
 
-| Events | Volunteer |     |
-| ------ | --------- | --- |
-|        |           |     |
+| Events | Volunteer | Shift |     |     |     |
+| ------ | --------- | ----- | --- | --- | --- |
+|        |           |       |     |     |     |
