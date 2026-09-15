@@ -9,12 +9,12 @@ For each identified object, argue why this belongs to the **problem domain**. An
 Make an **Event Table** to represent your findings and use the Affirmation Criteria to assess correctness of Classes and Events.
 
 1. Objects identified
-	- **Volunteer/Bartender** — person working behind the bar during opening hours
-- **Shift** — a scheduled period a volunteer works
-- **Member/Guest** — the person buying drinks
-- **Product** (beer, soda, snacks) — items sold across the counter
-- **Stock/Inventory** — quantity of each product on hand
-- **Sale** — a transaction where a product is exchanged for payment
-- **Tab** — a running credit balance for a member who pays later
-- **Price list** — current prices for products
-- **Delivery** — incoming stock from a supplier
+	- **Volunteer/Bartender** - person working behind the bar during opening hours
+	- **Shift** - a scheduled period a volunteer works
+	- **Member/Guest** - the person buying drinks
+	- **Product** (beer, soda, snacks) - items sold across the counter
+	- **Stock/Inventory** — quantity of each product on hand
+	- **Sale** — a transaction where a product is exchanged for payment
+	- **Tab** — a running credit balance for a member who pays later
+	- **Price list** — current prices for products
+	- **Delivery** — incoming stock from a supplier
