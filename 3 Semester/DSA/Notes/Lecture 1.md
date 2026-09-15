@@ -88,3 +88,98 @@ A foreign key is an attribute - or set of attributes - in one table that refers 
 A foreign key does not strictly have to reference a primary key - any *UNIQUE*-constrained column works, since guaranteed uniqueness is the real requirement. Every foreign key in this course references a primary key, the common case.
 
 In our example, *Student.programme_id* refers to *Programme.programme_id*: instead of copying the full programme name and duration into every single student row, we just store a reference to the programme they are enrolled in.
+
+
+### Schema vs. Instance
+The **schema** is the structure - the table names, attribute names, and their domains - and it rarely changes once a system is running. The **instance** is the actual data sitting in the tables at a given moment, and it changes constantly, as new students enroll every semester.
+
+Analogy from OOP: the schema is like a class definition, and an instance is like the objects created from that class at runtime.
+
+### Degree and Cardinality (recap)
+- **Degree (arity)**: the number of attributes a relation has - `Student(student_id, first_name, last_name, email)` has degree 4.
+- **Cardinality**: the number of tuples a relation currently holds - if Student has 30 rows, its cardinality is 30.
+
+Cardinality changes constantly as data is added/removed; degree only changes when you deliberately alter the schema.
+
+## Integrity Rules
+The DBMS enforces three integrity rules automatically, so your data can never silently drift into inconsistency:
+
+#### Domain Integrity
+Every attribute value must belong to its declared domain (type). Enforced directly by the column type - `INTEGER`, `VARCHAR(50)`, `DATE`, etc. Trying to insert `"three"` into a `duration_years INTEGER` column gets rejected outright.
+
+#### Entity Integrity
+Every table's primary key must be unique and not null, for every row. This guarantees every tuple can always be unambiguously identified.
+
+#### Referential Integrity
+Every foreign key value must either match an existing value in the column it references, or be `NULL` (if the relationship allows it). Guarantees no dangling references - e.g. `Student.programme_id = 99` can't point at a programme that doesn't exist.
+
+## Relation Schema Notation (shorthand)
+A compact way to sketch a design on paper, before writing full `CREATE TABLE` statements. Notation:
+- **Underline** → primary key
+- **→ RelationName** → foreign key, referencing that relation's primary key
+- No underline, no arrow → an ordinary attribute
+
+\`\`\`
+Programme: {[ programme_id: int, programme_name: string, duration_years: int ]}
+Student: {[ student_id: int, first_name: string, last_name: string, email: string, 
+             birth_date: date, programme_id → Programme ]}
+\`\`\`
+
+## SQL from the Live Demo
+
+#### CREATE TABLE
+\`\`\`sql
+CREATE TABLE Programme (
+    programme_id    SERIAL PRIMARY KEY,
+    programme_name  VARCHAR(100) NOT NULL,
+    duration_years  INTEGER NOT NULL
+);
+
+CREATE TABLE Student (
+    student_id    SERIAL PRIMARY KEY,
+    first_name    VARCHAR(50) NOT NULL,
+    last_name     VARCHAR(50) NOT NULL,
+    email         VARCHAR(100) UNIQUE NOT NULL,
+    birth_date    DATE,
+    programme_id  INTEGER NOT NULL REFERENCES Programme(programme_id)
+);
+\`\`\`
+- `SERIAL` → auto-incrementing integer; PostgreSQL fills it in automatically
+- `PRIMARY KEY` → enforces entity integrity for free
+- `NOT NULL` → value always required
+- `UNIQUE` → no two rows can share this value
+- `REFERENCES` → declares the foreign key
+
+#### INSERT
+\`\`\`sql
+INSERT INTO Programme (programme_name, duration_years) VALUES
+    ('Software Engineering', 3),
+    ('Computer Science', 2),
+    ('Data Science', 2);
+\`\`\`
+Note: `programme_id` is not specified - PostgreSQL assigns it automatically (1, 2, 3...) via `SERIAL`.
+
+#### SELECT (with WHERE and ORDER BY)
+\`\`\`sql
+-- all rows, all columns
+SELECT * FROM Student;
+
+-- filtering
+SELECT first_name, last_name
+FROM Student
+WHERE programme_id = 1;
+
+-- filtering + sorting
+SELECT first_name, last_name, birth_date
+FROM Student
+WHERE programme_id = 1
+ORDER BY birth_date;
+\`\`\`
+
+#### A Taste of JOIN (proper treatment in Lecture 5)
+\`\`\`sql
+SELECT s.first_name, s.last_name, p.programme_name
+FROM Student s, Programme p
+WHERE s.programme_id = p.programme_id;
+\`\`\`
+Combines rows from two tables using the FK relationship. Read aloud: for every student, look up the name of the programme they're enrolled in.
