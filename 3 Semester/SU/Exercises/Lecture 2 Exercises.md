@@ -40,7 +40,7 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 
 3. Event Table
 
-| Events        | Volunteer | Shift | Product | Sale | Tab |
+| **Events**    | Volunteer | Shift | Product | Sale | Tab |
 | ------------- | --------- | ----- | ------- | ---- | --- |
 | Signed up     | X         | X     |         |      |     |
 | Started Shift | X         | X     |         |      |     |
