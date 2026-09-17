@@ -1,6 +1,6 @@
-[[Lecture2-ER-Diagrams.pdf]]
+[[Software Engineer/3 Semester/DSA/Slides/Lecture2-ER-Diagrams.pdf]]
 # Recap: Keys and Integrity
-Quick recall before building on it - see [[Lecture1-Intro-RelationalModel-typst.pdf]] for full detail:
+Quick recall before building on it - see [[Software Engineer/3 Semester/DSA/Slides/Lecture1-Intro-RelationalModel-typst.pdf]] for full detail:
 - **Primary key** - uniquely identifies each row
 - **Foreign key** - points at another table's primary key (or a unique column); how relationships are represented
 - **Domain integrity** - values match their declared type
@@ -56,7 +56,7 @@ is_overdue → due_date < today() AND return_date IS NULL
 A value that can go stale is a bug magnet - computing it on the fly is always correct.
 
 ### Keys, Revisited
-Same definitions as [[Lecture1-Intro-RelationalModel-typst.pdf]], just applied at the ER level:
+Same definitions as [[Software Engineer/3 Semester/DSA/Slides/Lecture1-Intro-RelationalModel-typst.pdf]], just applied at the ER level:
 - **Superkey**: any attribute set that uniquely identifies an instance
 - **Candidate key**: a minimal superkey
 - **Identifying attribute**: the candidate key the designer chose as that entity type's primary key - underlined inside the entity box (e.g. `book_id`, `author_id`, `member_id`). A weak entity does not get one on its own (more below).
