@@ -156,4 +156,5 @@ public class GennemsnitForEachCall {
 Examples used in the lecture to build intuition:
 - Three `Car` objects with different **state** but the same **shape** (attributes): colour, type, doors, bhp.
 	- e.g. Colour: Red, Type: Sedan, Doors: 2, bhp: 90
-	- e.g. Colour: Pink, Type: SUV, Doors: 3, 
+	- e.g. Colour: Pink, Type: SUV, Doors: 5, bhp: 124
+- Three `Book` objects, again same shape, different state: Publisher, Title (Titel)
