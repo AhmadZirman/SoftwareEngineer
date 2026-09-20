@@ -18,4 +18,10 @@
 - Slogan: "Write once. Run everywhere."
 
 ### Tool needed
-. Bare mini
+-  Bare minimum: Java JDK + a plain text editor
+- Nice to have:
+	- IDE: IntelliJ, Eclipse, VSCode, NetBeans
+	- Build Systems: Ant, Maven, Gradle
+
+
+### Warm-up Java exercises (procedural)
