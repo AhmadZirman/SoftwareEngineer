@@ -177,5 +177,12 @@ This is the first design principle introduced, a preview of topics to come (desi
 
 Example:
 ```Java
-public class Account { private int balance; // hidden internal state public int getBalance() { return balance; // controlled, read-only access from outside } }
+public class Account {
+	private int balance; // hidden internal state
+	
+	public int getBalance() {
+		return balance; // controlled, read-only access from outside
+	}
+}
 ```
+> [!important]
