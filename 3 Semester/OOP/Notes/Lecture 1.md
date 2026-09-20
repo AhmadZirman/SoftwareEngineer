@@ -163,4 +163,8 @@ Examples used in the lecture to build intuition:
 
 #### Single Responsibility Principle (SRP)
 > [!quote] "A class should have one, and only one, reason to change."
-This is th
+
+This is the first design principle introduced, a preview of topics to come (design principles/patterns later in the course).
+
+#### Encapsulation & access modifiers in Java
+**Motivation**
