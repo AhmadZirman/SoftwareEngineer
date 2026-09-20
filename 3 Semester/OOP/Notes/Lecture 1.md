@@ -154,4 +154,6 @@ public class GennemsnitForEachCall {
 > Objects belongs to a **class**. A class exists at *compile-time* and describes what objects of that class look like. At *run-time*, class is **instantiated** into an object.
 
 Examples used in the lecture to build intuition:
-- Three `Car` objects with different **state** but the same **shape** (attribute)
+- Three `Car` objects with different **state** but the same **shape** (attributes): colour, type, doors, bhp.
+	- e.g. Colour: Red, Type: Sedan, Doors: 2, bhp: 90
+	- e.g. Colour: Pink, Type: SUV, Doors: 3, 
