@@ -77,5 +77,26 @@ long sekunderInput = Long.parseLong(args[0]);
 
 2. Print a triangle pattern
 Print 10 lines, each starting "|", followed by an increasing number of "*" (0 on line 1, up to 9 on line 10):
-```MD
+```CMD
+|
+|*
+|**
+|***
+...
+|*********
 ```
+
+```Java
+public class Solution {
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; ++i) {
+            System.out.write('|');
+            for (int j = 0; j < i; ++j) {
+                System.out.write('*'); // print i stars on row i
+            }
+            System.out.write('\n');
+        }
+    }
+}
+```
+**Variant:** 
