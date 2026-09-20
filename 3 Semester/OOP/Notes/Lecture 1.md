@@ -63,7 +63,7 @@ public class Solution {
 }
 ```
 
-A second version (*SolutionCMD*) does the same thing but reads the seconds count from a **command-line argument** (*args[0]*) instead of *Scanner*, with a gaurd clauses:
+A second version (`SolutionCMD`) does the same thing but reads the seconds count from a **command-line argument** (`args[0]`) instead of `Scanner`, with a guard clauses:
 
 ```Java
 if (args.length < 1) {
@@ -73,7 +73,7 @@ if (args.length < 1) {
 long sekunderInput = Long.parseLong(args[0]);
 ```
 
-> Goal of this exercise Practice integer devision `/` and modulo `%". Secondary 
+> [!note] Goal of this exercise Practice integer devision `/` and modulo `%`. Secondary 
 > Practice integer division `/` and modulo `%`. Secondary goal: get comfortable reading input both via `Scanner` and via command-line args.
 
 2. Print a triangle pattern
