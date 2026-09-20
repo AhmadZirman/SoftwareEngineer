@@ -169,7 +169,13 @@ This is the first design principle introduced, a preview of topics to come (desi
 #### Encapsulation & access modifiers in Java
 **Motivation:** classes want to hide their internal state from external modification/reading (protect invariants, control how state is changed).
 
-| Modifier  | Access                                      |
-| --------- | ------------------------------------------- |
-| `public`  | Everyone has access                         |
-| `private` | Only objects of the class itself can access |
+| Modifier    | Access                                                |
+| ----------- | ----------------------------------------------------- |
+| `public`    | Everyone has access                                   |
+| `private`   | Only objects of the class itself can access           |
+| `protected` | Accessible within the same package, and by subclasses |
+
+Example:
+```Java
+public class Account { private int balance; // hidden internal state public int getBalance() { return balance; // controlled, read-only access from outside } }
+```
