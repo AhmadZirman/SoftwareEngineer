@@ -103,4 +103,18 @@ public class Solution {
 
 
 3. Average of N integers (3 ways)
-Same task, three different styles
+Same task, three different styles, shows how Java syntax can get progressively more compact:
+
+```Java
+// Classic indexed for-loop
+public class Gennemsnit {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 0; i < args.length; ++i) {
+            sum += Integer.parseInt(args[i]);
+        }
+        int gennemsnit = sum / args.length; // "gennemsnit" = average
+        System.out.println(gennemsnit);
+    }
+}
+```
