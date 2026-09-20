@@ -13,4 +13,9 @@
 
 ## Java basics
 - The programming Language: Java itself is an object-oriented language.
-- The Java Virtua
+- The Java Virtual Machine (JVM): Interprets compiled Java bytecode.
+- The Java standard library: Large set of reusable components (lists, etc.).
+- Slogan: "Write once. Run everywhere."
+
+### Tool needed
+. Bare mini
