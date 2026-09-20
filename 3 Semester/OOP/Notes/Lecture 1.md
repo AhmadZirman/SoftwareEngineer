@@ -105,7 +105,7 @@ public class Solution {
 3. Average of N integers (3 ways)
 Same task, three different styles, shows how Java syntax can get progressively more compact:
 
-```Java
+```Java title:for-loop
 // Classic indexed for-loop
 public class Gennemsnit {
     public static void main(String[] args) {
@@ -117,4 +117,8 @@ public class Gennemsnit {
         System.out.println(gennemsnit);
     }
 }
+```
+
+
+```Java title:for-each_loop
 ```
