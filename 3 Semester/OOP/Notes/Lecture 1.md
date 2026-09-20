@@ -99,4 +99,8 @@ public class Solution {
     }
 }
 ```
-**Variant:** make the number of lines user-defined by reading *bound* from *args[0]* (**)
+**Variant:** make the number of lines user-defined by reading *bound* from *args[0]* (*Integer.parseInt(args[0])*) instead of hardcoding *10*
+
+
+3. Average of N integers (3 ways)
+Same task, three different styles
