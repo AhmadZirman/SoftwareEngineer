@@ -63,4 +63,4 @@ public class Solution {
 }
 ```
 
-A second version (*SolutionCMD*) does the same thing but reads the seconds
+A second version (*SolutionCMD*) does the same thing but reads the seconds count from a **command-line argument** (*args[0]*) instead of *Scanner*, with a g
