@@ -119,6 +119,33 @@ public class Gennemsnit {
 }
 ```
 
-
-```Java title:for-each_loop
+```Java title:for-each-loop
+// Enhanced for-each loop - cleaner, no index bookkeeping
+public class GennemsnitForEach {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (String s : args) {
+            sum += Integer.parseInt(s);
+        }
+        int gennemsnit = sum / args.length;
+        System.out.println(gennemsnit);
+    }
+}
 ```
+
+```Java title:Streams
+// Streams — functional style: map each string to int, then reduce (sum) them
+import java.util.Arrays;
+
+public class GennemsnitForEachCall {
+    public static void main(String[] args) {
+        int sum = Arrays.stream(args)
+                         .map(s -> Integer.parseInt(s))
+                         .reduce(0, (a, b) -> a + b);
+        int gennemsnit = sum / args.length;
+        System.out.println(gennemsnit);
+    }
+}
+```
+
+/
