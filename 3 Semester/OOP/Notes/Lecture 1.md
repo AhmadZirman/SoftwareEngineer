@@ -76,7 +76,7 @@ long sekunderInput = Long.parseLong(args[0]);
 	Goal of this exercise Practice integer devision "/" and modulo "%". Secondary goal: get comfortable reading input both via "Scanner" and via command-line args.
 
 2. Print a triangle pattern
-Print 10 lines, each starting "|", followed by an increasing number of "*" (0 on line 1, up to 9 on line 10):
+Print 10 lines, each starting "|", followed by an increasing number of `* (0 on line 1, up to 9 on line 10):
 ```CMD
 |
 |*
@@ -99,7 +99,7 @@ public class Solution {
     }
 }
 ```
-**Variant:** make the number of lines user-defined by reading *bound* from *args[0]* (*Integer.parseInt(args[0])*) instead of hardcoding *10*
+**Variant:** make the number of lines user-defined by reading `bound` from `args[0]` (`Integer.parseInt(args[0])`) instead of hardcoding `10`
 
 
 3. Average of N integers (3 ways)
@@ -148,4 +148,3 @@ public class GennemsnitForEachCall {
 }
 ```
 
-/
