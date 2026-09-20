@@ -161,4 +161,6 @@ Examples used in the lecture to build intuition:
 - So `Car` and `Book` are two different **classes**, each describing a family of objects.
 
 
-#### Single
+#### Single Responsibility Principle (SRP)
+> [!quote] "A class should have one, and only one, reason to change."
+This is th
