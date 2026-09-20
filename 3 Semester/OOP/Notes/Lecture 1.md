@@ -8,4 +8,4 @@
 - Design Patterns
 
 ### Today: Classes and Objects
-	Key takeaway from today "W"
+	Key takeaway from today "The specific language is not important. The principles are!" OOP concepts transfer across Smalltalk, Java, C++, Python
