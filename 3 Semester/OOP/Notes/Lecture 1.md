@@ -185,4 +185,4 @@ public class Account {
 	}
 }
 ```
-> [!important] General advice (rule of thumb) **All attribu**
+> [!important] General advice (rule of thumb) **All attributes should be `private`**, and only a subset of **methods s**
