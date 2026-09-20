@@ -99,4 +99,4 @@ public class Solution {
     }
 }
 ```
-**Variant:** 
+**Variant:** make the number of lines user-defined by reading *bound* from *args[0]* (**)
