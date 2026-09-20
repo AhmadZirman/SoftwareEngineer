@@ -52,3 +52,5 @@ Make an **Event Table** to represent your findings and use the Affirmation Crite
 4. Applying the Affirmation Criteria
 	- Sold, Paid, Restocked, Ran out: All instantaneous, atomic, clearly identifiable, and involve identifiable objects (Product+Sale, or Sale+Tab) → keep.
 	- Started Shift, borderline: Is it an event (a moment)
+
+![[Pasted image 20260920103546.png]]
