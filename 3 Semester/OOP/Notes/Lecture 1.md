@@ -73,10 +73,11 @@ if (args.length < 1) {
 long sekunderInput = Long.parseLong(args[0]);
 ```
 
-	Goal of this exercise Practice integer devision "/" and modulo "%". Secondary goal: get comfortable reading input both via "Scanner" and via command-line args.
+> Goal of this exercise Practice integer devision `/` and modulo `%". Secondary 
+> Practice integer division `/` and modulo `%`. Secondary goal: get comfortable reading input both via `Scanner` and via command-line args.
 
 2. Print a triangle pattern
-Print 10 lines, each starting "|", followed by an increasing number of `* (0 on line 1, up to 9 on line 10):
+Print 10 lines, each starting `|`, followed by an increasing number of `*` (0 on line 1, up to 9 on line 10):
 ```CMD
 |
 |*
