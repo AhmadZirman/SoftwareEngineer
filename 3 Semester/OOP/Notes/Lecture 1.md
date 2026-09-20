@@ -167,4 +167,5 @@ Examples used in the lecture to build intuition:
 This is the first design principle introduced, a preview of topics to come (design principles/patterns later in the course).
 
 #### Encapsulation & access modifiers in Java
-**Motivation**
+**Motivation:** classes want to hide their internal state from external modification/reading (protect invariants, control how state is changed).
+
