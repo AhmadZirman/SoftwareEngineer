@@ -150,4 +150,5 @@ public class GennemsnitForEachCall {
 ```
 
 ## Classes and Objects
-> [!abstract] Core definition an **object** is a thing that exists at runtime. It has **state** (data) and **methods** for inspecting
+> [!abstract] Core definition an **object** is a thing that exists at runtime. It has **state** (data) and **methods** for inspecting/modifying that state.
+> Objects belongs to a **class**. A class exists at *compile-time* and describes what objects of that class look like. At *run-time*, class is **instat**
