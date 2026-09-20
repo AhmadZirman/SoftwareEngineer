@@ -24,4 +24,7 @@
 	- Build Systems: Ant, Maven, Gradle
 
 
-### Warm-up Java exercises (procedural)
+### Warm-up Java exercises (procedural, pre-OOP)
+These were live-coding warm-ups to get back into Java syntax before moving to classes, not OOP examples yet:
+
+1. Convert seconds \
