@@ -26,7 +26,7 @@
 ### Warm-up Java exercises (procedural, pre-OOP)
 These were live-coding warm-ups to get back into Java syntax before moving to classes, not OOP examples yet:
 
-1. Convert seconds $\to$ weeks/days/hours/min/sec
+1. **Convert seconds $\to$ weeks/days/hours/min/sec**
 ```Java
 import java.util.Scanner;
 
@@ -75,7 +75,7 @@ long sekunderInput = Long.parseLong(args[0]);
 > [!note] Goal of this exercise Practice integer devision `/` and modulo `%`. Secondary 
 > Practice integer division `/` and modulo `%`. Secondary goal: get comfortable reading input both via `Scanner` and via command-line args.
 
-2. Print a triangle pattern
+2. **Print a triangle pattern**
 Print 10 lines, each starting `|`, followed by an increasing number of `*` (0 on line 1, up to 9 on line 10):
 ```CMD
 |
@@ -103,7 +103,7 @@ public class Solution {
 (`Integer.parseInt(args[0])`) instead of hardcoding `10`
 
 
-3. Average of N integers (3 ways)
+3. **Average of N integers (3 ways)**
 Same task, three different styles, shows how Java syntax can get progressively more compact:
 
 ```Java title:for-loop
@@ -186,7 +186,3 @@ public class Account {
 }
 ```
 > [!important] General advice (rule of thumb) **All attributes should be `private`**, and only a subset of **methods should be `public`**, expose behaviour, hide data.
-
-
-### Links
-- 
