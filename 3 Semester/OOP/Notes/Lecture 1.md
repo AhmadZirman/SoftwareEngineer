@@ -73,4 +73,4 @@ if (args.length < 1) {
 long sekunderInput = Long.parseLong(args[0]);
 ```
 
-	Goal of this exercise Practice integer devision / 
+	Goal of this exercise Practice integer devision "/" and modulo "%". Secondary goal: get comfortable reading input both v
