@@ -63,4 +63,14 @@ public class Solution {
 }
 ```
 
-A second version (*SolutionCMD*) does the same thing but reads the seconds count from a **command-line argument** (*args[0]*) instead of *Scanner*, with a g
+A second version (*SolutionCMD*) does the same thing but reads the seconds count from a **command-line argument** (*args[0]*) instead of *Scanner*, with a gaurd clauses:
+
+```Java
+if (args.length < 1) {
+    System.out.println("Programmet skal have antal sekunder som parameter");
+    return; // exit early if no argument was passed
+}
+long sekunderInput = Long.parseLong(args[0]);
+```
+
+	[!note] Goal of this exercise Practice integer devision / 
