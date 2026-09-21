@@ -1,4 +1,4 @@
-[[Lecture3-ER-to-SQL.pdf]]
+[[Lecture3-ER-to-SQL.pdf|Lecture 3 Slides]]
 
 # From ER to Relational Schema: SQL DDL
 Lecture 2 designed the library as an ER diagram with no SQL. This lecture turns that diagram into real tables using a fixed set of translation rules, then implements them in SQL DDL with every constraint intact.
