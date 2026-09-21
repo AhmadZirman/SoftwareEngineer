@@ -1,4 +1,4 @@
-[[Software Engineer/3 Semester/DSA/Slides/Lecture1-Intro-RelationalModel-typst.pdf]]
+[[Software Engineer/3 Semester/DSA/Slides/Lecture1-Intro-RelationalModel-typst.pdf|Lecture 1 Slides]]
 # Core Vocabulary (formal $\leftrightarrow$ everyday term)
 - Relation = Table
 - Tuple = Row
