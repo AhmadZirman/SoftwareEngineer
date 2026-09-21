@@ -1,4 +1,4 @@
-[[Software Engineer/3 Semester/DSA/Slides/Lecture2-ER-Diagrams.pdf]]
+[[Software Engineer/3 Semester/DSA/Slides/Lecture2-ER-Diagrams.pdf|Lecture 2 ]]
 # Recap: Keys and Integrity
 Quick recall before building on it - see [[Software Engineer/3 Semester/DSA/Slides/Lecture1-Intro-RelationalModel-typst.pdf]] for full detail:
 - **Primary key** - uniquely identifies each row
