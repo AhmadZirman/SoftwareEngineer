@@ -38,5 +38,5 @@ This is a 1:1 relationship between `Employee` and `ParkingSpot` (with partial pa
 **A1**: 
 
 ```SQL
-
+CREATE SCHEMA ex2
 ```
