@@ -58,6 +58,8 @@ CREATE TABLE ParkingSpot(
 INSERT INTO Employee (name) VALUES ('Alice'), ('Bo');
 INSERT INTO ParkingSpot (location, employee_id) VALUES ('P1-A', 1), ('P1-B', NULL), ('P1-C', NULL);
 
-DO $$
+DO $$ BEGIN
+	INSERT INTO ParkingSpot (location, employee_id) VALUES ('P1-D', 1);
+	RAISE EXCEPTION 'TEST FAILED: Second spot for employee rejec'
 
 ```
