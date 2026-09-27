@@ -7,7 +7,8 @@ docker --version
 docker compose version
 ```
 
-#### Step 1: Put the folder s
+#### Step 1: Folder and Terminal
+1. Unzip the folder `Extras-xxxxx.zip` to somewhere easy, e.g. `Desktop/DSA/Ex`
 
 
 ### Lecture 1, Slides, Exercises
