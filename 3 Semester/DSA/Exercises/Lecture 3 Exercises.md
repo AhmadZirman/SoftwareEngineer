@@ -12,4 +12,8 @@ For each attribute description below, pick the PostgreSQL data type that best fi
 
 **Q3**: The full text of a customer review, which could be a single word or several paragraphs – there is no reasonable fixed maximum length.
 
-**A3**: `TEXT`, 
+**A3**: `TEXT`, There's no maximum length, so a `VARCHAR(n)` would be the limiting factor.
+
+**Q4**: The exact moment an order was placed, including the time zone it was placed in (the company has customers across several time zones).
+
+**A4**: 
