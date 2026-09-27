@@ -36,3 +36,7 @@ This is a 1:1 relationship between `Employee` and `ParkingSpot` (with partial pa
 **Q1**: Write the two CREATE TABLE statements that implement this, including the foreign key that realizes the 1:1 relationship, and the constraint that stops the same foreign key value from being used by more than one row (i.e. what actually enforces the “at most one” on the referencing side).
 
 **A1**: 
+
+```SQL
+
+```
