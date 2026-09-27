@@ -71,3 +71,7 @@ END $$;
 **A2**: I put the foreign key on **ParkingSpot** (`employee_id INTEGER UNIQUE REFERENCES Employee(employee_id) ON DELETE SET NULL`)
 `UNIQUE` is what makes it 1:1. Without it, the same foreign key is a normal 1:N relationship.
 `UNIQUE` ignores NULLs, so any number of spots can be assigned.
+
+**Q3**: Would the other table work?
+
+**A3**: Yes, participation is partial on both sides, so the foreign key column is allowed to be
