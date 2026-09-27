@@ -37,7 +37,16 @@ docker compose logs db
 ```BASH
 docker compose exec db psql -U dbs -d dbs
 ```
-Your prompt changes to `dbs=#`, means you're now talking SQL to P
+Your prompt changes to `dbs=#`, means you're now talking SQL to PostgreSQL, try these:
+
+```psql
+\dn -- list schemas: should show library and university
+\dt -- tables in library (the default)
+SET search_path TO university; -- switch to the university tables
+\dt -- now 9 tables: teacher, semester, grade...
+SELECT * FROM Teacher; -- should show Alice, Bo, Camilla
+\q
+```
 
 
 
