@@ -1,6 +1,13 @@
 # Set up folder in Docker with Terminal
 
 
+#### Step 0: Get docker running
+```BASH
+docker --version
+docker compose version
+```
+
+#### Step 1: Put the folder s
 
 
 ### Lecture 1, Slides, Exercises
