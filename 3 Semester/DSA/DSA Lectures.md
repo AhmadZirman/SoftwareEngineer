@@ -8,7 +8,11 @@ docker compose version
 ```
 
 #### Step 1: Folder and Terminal
-1. Unzip the folder `Extras-xxxxx.zip` to somewhere easy, e.g. `Desktop/DSA/Ex`
+1. Unzip the folder `Extras-xxxxx.zip` to somewhere easy, e.g. `Desktop/DSA/Exercises/Extras-xxxxx`
+2. Go into that folder in terminal
+```BASH
+cd ~/Desktop/DSA/Exercises/Extras-xxxxx
+```
 
 
 ### Lecture 1, Slides, Exercises
