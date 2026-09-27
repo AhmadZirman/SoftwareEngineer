@@ -50,6 +50,11 @@ CREATE TABLE Employee(
 CREATE TABLE ParkingSpot(
 	spot_id SERIAL PRIMARY KEY,
 	location VARCHAR(50) NOT NULL,
-	employee_id INTEGER UNIQUE REFERENCES Employee()
+	employee_id INTEGER UNIQUE REFERENCES Employee(employee_id) ON DELETE SET NULL
 );
+
+
+-- Quick test:
+
+
 ```
