@@ -55,6 +55,6 @@ CREATE TABLE ParkingSpot(
 
 
 -- Quick test:
-
+INSERT INTO Employee (name) VALUES ('Alice'), ()
 
 ```
