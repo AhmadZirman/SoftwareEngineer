@@ -38,5 +38,13 @@ This is a 1:1 relationship between `Employee` and `ParkingSpot` (with partial pa
 **A1**: 
 
 ```SQL
-CREATE SCHEMA ex2
+CREATE SCHEMA ex2;
+SET search_path TO ex2;
+
+CREATE TABLE Employee(
+	employee_id SERIAL PRIMARY KEY,
+	name VARCHAR(50) NOT NULL
+);
+
+
 ```
