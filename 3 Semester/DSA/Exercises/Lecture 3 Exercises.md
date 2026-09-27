@@ -29,4 +29,7 @@ Exam trap: PostgreSQL converts it to UTC when storing. It doesn't keep original 
 
 Consider the following small scenario at a company:
 
-`Each Employee (employee_id, name) may be assigned at most one ParkingSpot (spot_id, location), and each ParkingSpot is assigned to at most one Employee. Not every employee has a parking spot, and not every parking spot is currently assigned.`
+
+```
+```MD
+Each Employee (employee_id, name) may be assigned at most one ParkingSpot (spot_id, location), and each ParkingSpot is assigned to at most one Employee. Not every employee has a parking spot, and not every parking spot is currently assigned.
