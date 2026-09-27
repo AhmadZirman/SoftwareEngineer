@@ -18,3 +18,7 @@ For each attribute description below, pick the PostgreSQL data type that best fi
 
 **A4**: `TIMESTAMPZ`, An exact moment that stays correct across time zones.
 Exam trap: PostgreSQL converts it to UTC when storing. It doesn't keep original zone, but it does record the exact moment correctly.
+
+**Q5**: A social-media post’s view counter, which for a very popular post could exceed 2 billion.
+
+**A5**: `BIGINT`, `INTEGER` stops at about 2.1 billion, so it could 
