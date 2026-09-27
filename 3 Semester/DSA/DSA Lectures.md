@@ -22,8 +22,18 @@ docker compose up -d
 ```
 (`-d`) means "run in the background"
 
-Then check
+Then check that both container are up:
+```BASH
+docker compose ps
+```
 
+To confirm the SQL files ran:
+```BASH
+docker compose logs db
+```
+
+
+S
 
 
 
