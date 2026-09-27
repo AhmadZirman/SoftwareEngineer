@@ -39,15 +39,15 @@ docker compose exec db psql -U dbs -d dbs
 ```
 Your prompt changes to `dbs=#`, means you're now talking SQL to PostgreSQL, try these:
 
-```psql
+```SQL
 \dn -- list schemas: should show library and university
 \dt -- tables in library (the default)
 SET search_path TO university; -- switch to the university tables
 \dt -- now 9 tables: teacher, semester, grade...
 SELECT * FROM Teacher; -- should show Alice, Bo, Camilla
-\q
+\q  -- leave psql
 ```
-
+Commands starting with `\` are psql shortcuts and don't need a `;`. Normal SQL always ends with `;`.
 
 
 ### Lecture 1, Slides, Exercises
