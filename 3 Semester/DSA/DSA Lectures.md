@@ -12,7 +12,14 @@ docker compose version
 2. Go into that folder in terminal
 ```BASH
 cd ~/Desktop/DSA/Exercises/Extras-xxxxx
+ls
 ```
+You should see a list of what the folder contains
+
+#### Step 2: Start it
+
+
+
 
 
 ### Lecture 1, Slides, Exercises
