@@ -47,4 +47,7 @@ CREATE TABLE Employee(
 );
 
 
+CREATE TABLE ParkingSpot(
+	
+);
 ```
