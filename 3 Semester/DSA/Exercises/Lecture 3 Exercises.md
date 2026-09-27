@@ -33,9 +33,9 @@ Each Employee (employee_id, name) may be assigned at most one ParkingSpot (spot_
 ```
 This is a 1:1 relationship between `Employee` and `ParkingSpot` (with partial participation on both sides).
 
-**Q1**: Write the two CREATE TABLE statements that implement this, including the foreign key that realizes the 1:1 relationship, and the constraint that stops the same foreign key value from being used by more than one row (i.e. what actually enforces the “at most one” on the referencing side).
+**1**: Write the two CREATE TABLE statements that implement this, including the foreign key that realizes the 1:1 relationship, and the constraint that stops the same foreign key value from being used by more than one row (i.e. what actually enforces the “at most one” on the referencing side).
 
-**A1**: 
+**1**: 
 
 ```SQL
 CREATE SCHEMA ex2;
@@ -64,7 +64,4 @@ DO $$ BEGIN
 EXCEPTION WHEN unique_violation THEN
 	RAISE NOTICE 'OK (ex2): Second spot for the same employee rejected by UNIQUE'
 END $$;
-
-
-
 ```
