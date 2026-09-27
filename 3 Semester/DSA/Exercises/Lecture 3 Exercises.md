@@ -8,4 +8,7 @@ For each attribute description below, pick the PostgreSQL data type that best fi
 
 **Q2**: Whether a customer has opted in to marketing emails: a plain yes/no flag.
 
-**A2**
+**A2**: BOOLEAN, no need for further explanation.
+
+**Q3**: The full text of a customer review, which could be a single word or several paragraphs – there is no reasonable fixed maximum length.
+
