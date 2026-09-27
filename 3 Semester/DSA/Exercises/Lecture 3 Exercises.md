@@ -21,4 +21,12 @@ Exam trap: PostgreSQL converts it to UTC when storing. It doesn't keep original 
 
 **Q5**: A social-media post’s view counter, which for a very popular post could exceed 2 billion.
 
-**A5**: `BIGINT`, `INTEGER` stops at about 2.1 billion, so it could 
+**A5**: `BIGINT`, because `INTEGER` stops at about 2.1 billion, so it could overflow.
+
+
+
+# Exercise 2: Translating a 1:1 Relationship
+
+Consider the following small scenario at a company:
+
+`Each Employee (employee_id, name) may be assigned at most one ParkingSpot (spot_id, location), and each ParkingSpot is assigned to at most one Employee. Not every employee has a parking spot, and not every parking spot is currently assigned.`
