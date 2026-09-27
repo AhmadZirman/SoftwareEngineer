@@ -1,3 +1,6 @@
+# Set up folder in Docker with Terminal
+
+
 
 
 ### Lecture 1, Slides, Exercises
