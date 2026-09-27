@@ -33,7 +33,11 @@ docker compose logs db
 ```
 
 
-S
+#### Step 3: Get inside the database
+```BASH
+docker compose exec db psql -U dbs -d dbs
+```
+Your prompt changes to `dbs=#`, means you're now talking SQL to P
 
 
 
