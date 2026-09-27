@@ -35,7 +35,7 @@ start_date
 **Q**: Classify each as simple, composite, multi-valued, or derived.
 
 **A**:
-| Attribute | Kind | Why |
+|Attribute|Kind|Why|
 |---|---|---|
 | staff_id | simple | single atomic value |
 | full_name | composite | made up of first_name and last_name |
@@ -43,6 +43,7 @@ start_date
 | office_phone_numbers | multi-valued | a lecturer can have more than one at the same time |
 | years_of_service | derived | computed from start_date and current date, not stored directly |
 | start_date | simple | single atomic date value |
+
 
 ## Exercise 3: Weak Entities - Course, Topic, and Professor
 

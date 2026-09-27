@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+                "file": "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3 Exercises"
+              "title": "Lecture 2 Exercises"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+                "file": "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+                "file": "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+                "file": "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,8 +191,8 @@
   },
   "active": "fd0d57dfb1dd671c",
   "lastOpenFiles": [
-    "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
     "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+    "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
     "3 Semester/DSA/Exercises/Lecture 1 Exercises.md",
     "3 Semester/DSA/Notes/Lecture 3.md",
     "3 Semester/DSA/DSA Lectures.md",

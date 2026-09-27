@@ -31,4 +31,6 @@ Consider the following small scenario at a company:
 ```MD
 Each Employee (employee_id, name) may be assigned at most one ParkingSpot (spot_id, location), and each ParkingSpot is assigned to at most one Employee. Not every employee has a parking spot, and not every parking spot is currently assigned.
 ```
-This is a 1:1 relationship between `Employee` and 
+This is a 1:1 relationship between `Employee` and `ParkingSpot` (with partial participation on both sides).
+
+**Q1**: Write the two CREATE TABLE statements that implement this, including the foreign key that realizes the 1:1 relationship, and the constraint that stops the same foreign key value from being used by more than one row (i.e. what actually enforces the “at most one” on the referencing side).
