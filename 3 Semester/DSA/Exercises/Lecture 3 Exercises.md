@@ -68,4 +68,4 @@ END $$;
 
 **Q2**: Which table did you put the foreign key on, and would it have worked just as well on the other table instead? Briefly justify your choice.
 
-**A2**: I put the foreign key on **ParkingSpot** 
+**A2**: I put the foreign key on **ParkingSpot** (`employee_id INTEGER UNIQUE REFERENCES Employee(employee_id) ON DELE`)
