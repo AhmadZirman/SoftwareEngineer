@@ -4,4 +4,4 @@ For each attribute description below, pick the PostgreSQL data type that best fi
 
 **Q1**: A Product's price, which must be stored exactly, in whole cents (no rounding errors), with up to two decimal places.
 
-**A1**: NUMER
+**A1**: NUMERIC(price, 2), exact decimal with 2 decimals after the point. 
