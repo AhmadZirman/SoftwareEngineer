@@ -17,7 +17,12 @@ ls
 You should see a list of what the folder contains
 
 #### Step 2: Start it
+```BASH
+docker compose up -d
+```
+(`-d`) means "run in the background"
 
+Then check
 
 
 
