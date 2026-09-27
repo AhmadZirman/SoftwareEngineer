@@ -68,4 +68,6 @@ END $$;
 
 **Q2**: Which table did you put the foreign key on, and would it have worked just as well on the other table instead? Briefly justify your choice.
 
-**A2**: I put the foreign key on **ParkingSpot** (`employee_id INTEGER UNIQUE REFERENCES Employee(employee_id) ON DELE`)
+**A2**: I put the foreign key on **ParkingSpot** (`employee_id INTEGER UNIQUE REFERENCES Employee(employee_id) ON DELETE SET NULL`)
+`UNIQUE` is what makes it 1:1. Without it, the same foreign key is a normal 1:N relationship.
+`UNIQUE` ignores NULLs, so any number of spots can be assigned.
