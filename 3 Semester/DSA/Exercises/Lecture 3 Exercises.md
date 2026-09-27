@@ -16,4 +16,5 @@ For each attribute description below, pick the PostgreSQL data type that best fi
 
 **Q4**: The exact moment an order was placed, including the time zone it was placed in (the company has customers across several time zones).
 
-**A4**: 
+**A4**: `TIMESTAMPZ`, An exact moment that stays correct across time zones.
+Exam trap: PostgreSQL converts it to UTC when stor
