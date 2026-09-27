@@ -62,7 +62,7 @@ DO $$ BEGIN
 	INSERT INTO ParkingSpot (location, employee_id) VALUES ('P1-D', 1);
 	RAISE EXCEPTION 'TEST FAILED: Second spot for employee rejected by UNIQUE';
 EXCEPTION WHEN unique_violation THEN
-	RAISE NOTICE 'OK (ex2): Second spot for the same employee rejecte'
+	RAISE NOTICE 'OK (ex2): Second spot for the same employee rejected by UNIQUE'
 END $$;
 
 
