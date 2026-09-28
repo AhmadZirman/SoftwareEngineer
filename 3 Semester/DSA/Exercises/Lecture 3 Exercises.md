@@ -88,3 +88,10 @@ Recall the university ER model from Lecture 2's exercise sheet:
 - A student is enrolled in exactly one program.
 - A student is registered for (“takes”) many courses.
 - For every course a student takes, the student can have zero or more grades on record for that course, each with the date of the exam it was awarded for – a student can sit the exam for the same course more than once (e.g. after failing).
+
+Draw a full ER diagram that captures all of this. For every entity, list its attributes and mark the key (or partial key, for a weak entity). For every relationship, give its name, the entities it connects, its cardinality, and the participation constraint on each side.
+
+_Hint: three things need extra care here. (1) Semester is a weak entity, the same way Topic was in Exercise 3 – work out what it depends on. (2) One fact here cannot be modelled as a plain relationship with attributes, the same way Borrows could not in the lecture – and it needs something extra beyond just being promoted to an entity. Which fact, and why? (3) Look for a relationship here that is 1:1, not 1:N or M:N._
+
+```SQL
+```
