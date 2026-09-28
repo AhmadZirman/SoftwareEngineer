@@ -97,5 +97,10 @@ _Hint: three things need extra care here. (1) Semester is a weak entity, the sam
 CREATE SCHEMA ex3;
 SET search_path TO ex3;
 
-
+CREATE TABLE Teacher(
+	teacher_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	last_name VARCHAR(50) NOT NULL,
+	email VARCHAR(100) NOT NULL 
+)
 ```
