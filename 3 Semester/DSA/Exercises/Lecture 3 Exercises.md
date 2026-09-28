@@ -129,4 +129,8 @@ CREATE TABLE Student(
 	email VARCHAR(100) MPT NULL UNIQUE,
 	program_id VARCHAR(10) MPT NULL REFERENCES Program(program_id) ON DELETE RESTRICT
 );
+
+-- Semester = Weak entity owned by Program (identifying relationship Has)
+--  PK = owner's key + partial key -> (program_id, semester_number)
+..  
 ```
