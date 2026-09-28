@@ -77,4 +77,5 @@ END $$;
 **A3**: Yes, participation is partial on both sides, so the foreign key column is allowed to be NULL whichever table it's on.
 
 
-# Exercise 3: The University Schema
+# Exercise 3: The University Schema, from ER to SQL
+Recall the university ER model from Lecture 2's exercise sheet:
