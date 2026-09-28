@@ -98,7 +98,7 @@ CREATE SCHEMA ex3;
 SET search_path TO ex3;
 
 -- 1) Tables with no foreign keys
--- 
+-- Composite attribute "name" -> split into first_name + last_name
 
 CREATE TABLE Teacher(
 	teacher_id SERIAL PRIMARY KEY,
@@ -107,6 +107,7 @@ CREATE TABLE Teacher(
 	email VARCHAR(100) NOT NULL UNIQUE -- Two teachers can't share an email
 );
 
+-- Naturla key (DAT, SWT, DVML) -> VARCHAR, not SERIAL
 CREATE TABLE Program(
 	program_id VARCHAR(10) PRIMARY KEY,
 	name VARCHAR(100) NOT NULL
