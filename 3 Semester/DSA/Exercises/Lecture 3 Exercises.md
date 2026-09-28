@@ -94,4 +94,8 @@ Draw a full ER diagram that captures all of this. For every entity, list its att
 _Hint: three things need extra care here. (1) Semester is a weak entity, the same way Topic was in Exercise 3 – work out what it depends on. (2) One fact here cannot be modelled as a plain relationship with attributes, the same way Borrows could not in the lecture – and it needs something extra beyond just being promoted to an entity. Which fact, and why? (3) Look for a relationship here that is 1:1, not 1:N or M:N._
 
 ```SQL
+CREATE SCHEMA ex3;
+SET search_path TO ex3;
+
+
 ```
