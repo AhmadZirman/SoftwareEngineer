@@ -81,3 +81,10 @@ END $$;
 # Exercise 3: The University Schema, from ER to SQL
 Recall the university ER model from Lecture 2's exercise sheet:
 
+- The university offers several programs (e.g. DAT, SWT, DVML). Each program is organized into semesters, numbered within the program (e.g. semester 2 of DVML is informally called “DVML2”, semester 5 of DAT is “DAT5”); a semester only makes sense together with the program it belongs to.
+- A course is offered as part of one or more semesters, and those semesters can belong to different programs – e.g. the same “Databases” course might be part of both DAT’s semester 5 and SWT’s semester 3.
+- A teacher teaches one or more courses. A course is taught by one or more teachers (at least one).
+- Each semester has exactly one teacher assigned as its coordinator. A teacher coordinates at most one semester (possibly none).
+- A student is enrolled in exactly one program.
+- A student is registered for (“takes”) many courses.
+- For every course a student takes, the student can have zero or more grades on record for that course, each with the date of the exam it was awarded for – a student can sit the exam for the same course more than once (e.g. after failing).
