@@ -125,5 +125,8 @@ CREATE TABLE Course(
 CREATE TABLE Student(
 	student_id SERIAL PRIMARY KEY,
 	first_name VARCHAR(50) MPT NULL,
+	last_name VARCHAR(50) MPT NULL,
+	email VARCHAR(100) MPT NULL UNIQUE,
+	program_id VARCHAR(10) MPT NULL REFERENCES Program(program_id) ON DELETE RESTRICT
 );
 ```
