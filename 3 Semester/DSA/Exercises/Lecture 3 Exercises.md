@@ -97,11 +97,14 @@ _Hint: three things need extra care here. (1) Semester is a weak entity, the sam
 CREATE SCHEMA ex3;
 SET search_path TO ex3;
 
+-- 1) Tables with no foreign keys
+-- 
+
 CREATE TABLE Teacher(
 	teacher_id SERIAL PRIMARY KEY,
 	first_name VARCHAR(50) NOT NULL,
 	last_name VARCHAR(50) NOT NULL,
-	email VARCHAR(100) NOT NULL UNIQUE
+	email VARCHAR(100) NOT NULL UNIQUE -- Two teachers can't share an email
 );
 
 CREATE TABLE Program(
@@ -112,6 +115,6 @@ CREATE TABLE Program(
 CREATE TABLE Course(
 	course_id SERIAL PRIMARY KEY,
 	title VARCHAR(200) NOT NULL,
-	ects INTEGER NOT NULL CHECK 
+	ects INTEGER NOT NULL CHECK (ects > 0) -- a 0 or negative ECTS course makes no sense
 );
 ```
