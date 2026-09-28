@@ -132,5 +132,5 @@ CREATE TABLE Student(
 
 -- Semester = Weak entity owned by Program (identifying relationship Has)
 --  PK = owner's key + partial key -> (program_id, semester_number)
-..  
+--  
 ```
