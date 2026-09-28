@@ -1,3 +1,4 @@
+[[exerciseSheet-03-ER-to-SQL-SOLUTIONS.pdf]]
 
 # Exercise 1: Warm-up, Picking the Right Type
 For each attribute description below, pick the PostgreSQL data type that best fits it, from: `NUMERIC(p, s), BOOLEAN, TEXT, TIMESTAMPZ, BIGINT`. Briefly justify your choice.
@@ -79,3 +80,4 @@ END $$;
 
 # Exercise 3: The University Schema, from ER to SQL
 Recall the university ER model from Lecture 2's exercise sheet:
+
