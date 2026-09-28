@@ -121,5 +121,9 @@ CREATE TABLE Course(
 
 -- 2) Tables that point at the ones above -----------------------------------------
 -- Enrolled_in (1:N, Program -> Student): FK on the "many" side = Student
--- NOT NULL because every student is enrolled in a program (total participatoi)
+-- NOT NULL because every student is enrolled in a program (total participation)
+CREATE TABLE Student(
+	student_id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50) MPT NULL,
+);
 ```
