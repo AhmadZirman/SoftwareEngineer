@@ -120,5 +120,6 @@ CREATE TABLE Course(
 );
 
 -- 2) Tables that point at the ones above -----------------------------------------
--- Enrolled_in (1:N, program -> Student)
+-- Enrolled_in (1:N, Program -> Student): FK on the "many" side = Student
+-- NOT NULL because every student is enrolled in a program (total participatoi)
 ```
