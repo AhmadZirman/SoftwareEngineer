@@ -63,4 +63,8 @@ Commands starting with `\` are psql shortcuts and don't need a `;`. Normal SQL a
 # Lecture 3, Slides, Exercises
 [[Lecture 3]]
 [[Lecture3-ER-to-SQL.pdf|Slides]]
-[[Lecture 3 Exercises | Exercise 3]]
+[[Lecture 3 Exercises |Exercise 3]]
+
+
+
+# Lecture 4, Slides, Exercises

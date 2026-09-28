@@ -75,3 +75,6 @@ END $$;
 **Q3**: Would the other table work?
 
 **A3**: Yes, participation is partial on both sides, so the foreign key column is allowed to be NULL whichever table it's on.
+
+
+# Exercise 3: The University Schema
