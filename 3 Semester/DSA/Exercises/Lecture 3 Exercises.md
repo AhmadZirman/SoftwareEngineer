@@ -97,7 +97,7 @@ _Hint: three things need extra care here. (1) Semester is a weak entity, the sam
 CREATE SCHEMA ex3;
 SET search_path TO ex3;
 
--- 1) Tables with no foreign keys
+-- 1) Tables with no foreign keys -------------------------------------------------
 -- Composite attribute "name" -> split into first_name + last_name
 
 CREATE TABLE Teacher(
@@ -118,4 +118,7 @@ CREATE TABLE Course(
 	title VARCHAR(200) NOT NULL,
 	ects INTEGER NOT NULL CHECK (ects > 0) -- a 0 or negative ECTS course makes no sense
 );
+
+-- 2) Tables that point at the ones above -----------------------------------------
+-- Enrolled_in (1:N, program -> Student)
 ```
