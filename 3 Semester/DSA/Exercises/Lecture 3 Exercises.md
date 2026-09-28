@@ -106,6 +106,12 @@ CREATE TABLE Teacher(
 
 CREATE TABLE Program(
 	program_id VARCHAR(10) PRIMARY KEY,
-	name VARCHAR()
+	name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Course(
+	course_id SERIAL PRIMARY KEY,
+	title VARCHAR(200) NOT NULL,
+	ects INTEGER NOT NULL CHECK 
 );
 ```
