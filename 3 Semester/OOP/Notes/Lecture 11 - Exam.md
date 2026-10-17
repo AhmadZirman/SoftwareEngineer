@@ -10,10 +10,10 @@ Src:
 [[LibraryTest]]
 [[LocationTracker]]
 [[Novel]]
-
-
-
-
+[[SearchByAuthor]]
+[[SearchByTitle]]
+[[SearchStrategy]]
+[[TextBook]]
 
 
 
@@ -25,3 +25,8 @@ Src:
 - **Ex 5 – Observer:** `Library` keeps a list of trackers and notifies all of them on add or remove. Each `BookLocation` ignores books that aren’t at its own location. Two details:
     - A duplicate add throws _before_ notifying anyone.
     - Removing a book that isn’t there doesn’t notify anyone.
+
+**Tests:**
+
+- `LibraryObserverTest` is the required Exercise 5 test class (9 tests).
+- `LibraryTest` is an extra class covering Exercises 1–4 (11 tests), useful for checking your own attempt.
