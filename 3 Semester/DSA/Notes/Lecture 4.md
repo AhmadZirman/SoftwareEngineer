@@ -1,4 +1,4 @@
-[[]]
+[[Lecture4-SingleTableQueries.pdf]]
 
 # SQL: Single-Table Queries and Aggregation
 Lecture 3 built the seven library tables and every constraint on them. This lecture is about retrieval: turning a question a librarian would ask into one precise `SELECT` statement. Every query touches exactly one table. Combining tables comes later with joins.
