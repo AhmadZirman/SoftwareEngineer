@@ -9,7 +9,7 @@
 > - **Inheritance** (`extends`) lets a subclass reuse fields and methods from a superclass, removing duplication.
 > - An **abstract class** sits in between: it can have fields and implemented methods _and_ unimplemented (`abstract`) ones.
 
-Previous: [[OOP Lecture 2 - Classes, Packages, Encapsulation]]
+Previous: [[Software Engineer/3 Semester/OOP/Notes/Lecture 2|Lecture 2]]
 
 ---
 
