@@ -1,3 +1,4 @@
+```java
 import java.util.Collection;
 
 /**
@@ -6,3 +7,4 @@ import java.util.Collection;
 public interface SearchStrategy {
     Collection<Book> search(String query, Collection<Book> books);
 }
+```

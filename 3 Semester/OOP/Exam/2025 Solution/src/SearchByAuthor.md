@@ -20,3 +20,4 @@ public class SearchByAuthor implements SearchStrategy {
         return result; // empty list if nothing matches, never null
     }
 }
+```
