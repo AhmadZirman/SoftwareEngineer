@@ -1,3 +1,4 @@
+```java
 /**
  * Exercise 3: thrown when a book with the same ISBN is already in the library.
  *
@@ -17,3 +18,4 @@ public class DuplicateBookException extends RuntimeException {
         return isbn;
     }
 }
+```

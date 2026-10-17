@@ -1,3 +1,4 @@
+```java
 /**
  * Exercise 2: a novel. Its location CAN change, so it simply keeps Book's setLocation().
  */
@@ -22,3 +23,4 @@ public class Novel extends Book {
                 + "', location=" + getLocation() + ", genre='" + genre + "'}";
     }
 }
+```

@@ -1,3 +1,4 @@
+```java
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -81,3 +82,4 @@ public class BookLocation implements LocationTracker {
         return "BookLocation{section='" + section + "', shelf=" + shelf + "}";
     }
 }
+```

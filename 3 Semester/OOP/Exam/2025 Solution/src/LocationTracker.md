@@ -1,3 +1,4 @@
+```java
 import java.util.Collection;
 
 /**
@@ -12,3 +13,4 @@ public interface LocationTracker {
     /** The books this tracker currently knows about. */
     Collection<Book> getBooks();
 }
+```

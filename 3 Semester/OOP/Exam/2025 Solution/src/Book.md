@@ -1,5 +1,5 @@
-```
-```
+```java
+
 import java.util.Objects;
 
 /**
@@ -70,3 +70,4 @@ public class Book {
                 + "', location=" + location + "}";
     }
 }
+```
