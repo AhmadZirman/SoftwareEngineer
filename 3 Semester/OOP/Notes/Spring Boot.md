@@ -10,7 +10,7 @@ https://spring.io/projects/spring-boot
 > - **Database**: an `@Entity` class + a `JpaRepository` interface, and Spring writes the SQL for you.
 > - **API calls**: the frontend calls your routes with `fetch`; your backend calls other APIs with `RestClient`.
 
-Previous: [[OOP Lecture 4 - Object Oriented Design]]
+Previous: [[Software Engineer/3 Semester/OOP/Notes/Lecture 4|Lecture 4]]
 
 ---
 
