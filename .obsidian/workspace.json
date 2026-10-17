@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.5
+    "width": 305.5
   },
   "right": {
     "id": "67dfa5bfc595a226",
@@ -189,21 +189,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd0d57dfb1dd671c",
+  "active": "9eee040bf2a833ad",
   "lastOpenFiles": [
+    "3 Semester/SU/Slides/SD07 - Functions.pdf",
+    "3 Semester/SU/Slides/SD05 - Usage.pdf",
+    "3 Semester/SU/Slides/SD03 - Behaviour.pdf",
+    "3 Semester/SU/Notes/Lecture 7.md",
+    "3 Semester/SU/Notes/Lecture 6 - Empty.md",
+    "3 Semester/SU/Notes/Lecture 5.md",
+    "3 Semester/SU/Notes/Lecture 4 - Empty.md",
+    "3 Semester/SU/Notes/Lecture 3.md",
+    "3 Semester/OOP/Slides/Session 9 - Design Patterns I.pdf",
+    "3 Semester/OOP/Slides/Session 8 - Error Handling with Exceptions.pdf",
+    "3 Semester/OOP/Slides/Session 8 - Enums.pdf",
+    "3 Semester/OOP/Slides/Session 7 - Software Testing.pdf",
+    "3 Semester/OOP/Slides/Session 6 - Object Class.pdf",
+    "3 Semester/OOP/Slides/Session 6 - Generics.pdf",
+    "3 Semester/OOP/Slides/Session 6 - Collections.pdf",
+    "3 Semester/OOP/Slides/Session 4 - Object-Oriented Design.pdf",
+    "3 Semester/OOP/Exam/2025 Solution/src/SearchStrategy.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/TextBook.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/SearchByTitle.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/SearchByAuthor.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/Novel.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/LibraryTest.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/LocationTracker.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/LibraryObserverTest.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/Library.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/DuplicateBookException.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/BookLocation.md",
+    "3 Semester/OOP/Exam/2025 Solution/src/Book.md",
+    "3 Semester/DSA/Notes/Lecture 7.md",
+    "3 Semester/DSA/Notes/Lecture 6.md",
+    "3 Semester/DSA/Notes/Lecture 5.md",
+    "3 Semester/DSA/Notes/Lecture 4.md",
     "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
     "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
     "3 Semester/DSA/Exercises/Lecture 1 Exercises.md",
-    "3 Semester/DSA/Exercises/Sheets/exerciseSheet-03-ER-to-SQL-SOLUTIONS.pdf",
-    "3 Semester/DSA/Exercises/Sheets/exerciseSheet-03-ER-to-SQL-NO-SOLUTIONS.pdf",
-    "3 Semester/DSA/Exercises/Sheets/exerciseSheet-02-ER-Diagrams-SOLUTIONS.pdf",
-    "3 Semester/DSA/Exercises/Sheets/exerciseSheet-01-Intro-RelationalModel-SOLUTIONS.pdf",
-    "3 Semester/DSA/Exercises/Sheets",
-    "3 Semester/DSA/DSA Lectures.md",
-    "3 Semester/DSA/Notes/Lecture 3.md",
-    "3 Semester/SU/SU Lectures.md",
-    "3 Semester/SU/Exercises/Lecture 1 Exercise.md",
-    "3 Semester/SU/Exercises/Lecture 2 Exercises.md",
-    "exerciseSheet-02-ER-Diagrams-SOLUTIONS.pdf.md"
+    "3 Semester/DSA/DSA Lectures.md"
   ]
 }
