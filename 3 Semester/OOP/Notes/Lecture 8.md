@@ -12,7 +12,7 @@
 > - Java reports errors with **exceptions**: `throw` aborts a method, `try/catch` handles the problem.
 > - **Checked** exceptions (subclass of `Exception`) must be caught or declared; **unchecked** (subclass of `RuntimeException`) don't have to be.
 
-Previous: [[OOP Lecture 7 - Software Testing]]
+Previous: [[Software Engineer/3 Semester/OOP/Notes/Lecture 7|Lecture 7]]
 
 ---
 
