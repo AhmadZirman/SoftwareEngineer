@@ -2,9 +2,7 @@
 
 ---
 
-## course: OOP lecture: 7 lecturer: Magnus Madsen topics: [testing, junit, unit-tests, technical-debt, black-box, white-box, coverage, assertions, contracts, tdd] tags: [oop, java, testing, lecture]
-
-# OOP Lecture 7 – Software Testing
+# Software Testing
 
 > [!summary] TL;DR
 > 
@@ -15,7 +13,7 @@
 > - **TDD**: write a failing test first, make it pass, refactor. Repeat.
 > - Testing can show bugs exist, **never** that they don't (Dijkstra).
 
-Previous: [[OOP Lecture 6 - Collections, Object Class, Generics]]
+Previous: [[Software Engineer/3 Semester/OOP/Notes/Lecture 6|Lecture 6]]
 
 ---
 
