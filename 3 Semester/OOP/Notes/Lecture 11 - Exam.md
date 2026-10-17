@@ -1,7 +1,6 @@
-
 [[2025_OOP_Exam.pdf]]
 
-Src:
+# Source:
 [[Book]]
 [[BookLocation]]
 [[DuplicateBookException]]
@@ -16,6 +15,7 @@ Src:
 [[TextBook]]
 
 
+# Explanation
 
 - **Ex 1 – immutability:** fields that can’t change are `private final` with no setter. Only `location` in `Book` gets a setter.
 - **Ex 1 – equality:** `BookLocation` overrides `equals` and `hashCode` on section + shelf. Without this, a new `BookLocation("Fiction", 1)` wouldn’t match an existing one, and both `findBooksAtLocation` and the observer would silently find nothing. This is the easiest place to lose marks.
@@ -26,7 +26,14 @@ Src:
     - A duplicate add throws _before_ notifying anyone.
     - Removing a book that isn’t there doesn’t notify anyone.
 
-**Tests:**
+
+## Tests:
 
 - `LibraryObserverTest` is the required Exercise 5 test class (9 tests).
 - `LibraryTest` is an extra class covering Exercises 1–4 (11 tests), useful for checking your own attempt.
+
+
+## Two things to know:
+
+- I couldn’t download JUnit 5 here, so the tests ran against a small stand-in for the JUnit API. The submitted files use the real JUnit imports. In IntelliJ, `Alt+Enter` on the red `org.junit` import offers to add JUnit 5 to the project.
+- One gap the spec doesn’t cover: if a `Novel` is moved with `setLocation` while it’s in the library, the old location still lists it. That’s a good examiner question. One fix would be a `library.moveBook(book, newLocation)` method that notifies a removal and then an addition.
