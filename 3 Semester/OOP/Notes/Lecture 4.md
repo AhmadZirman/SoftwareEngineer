@@ -5,10 +5,10 @@
 All three are types that represent an **entity or concept**.
 
 || Fields | Methods | Method implementation |
-| --- | :-:|:-:|--- |
-|**Class**|✅|✅|Always implemented|
-|**Interface**|❌|✅|None, only signatures|
-|**Abstract class**|✅|✅|May or may not be implemented|
+| --- | :-: | :-: | --- |
+| **Class** | ✅ | ✅ | Always implemented |
+| **Interface** | ❌ | ✅ | None, only signatures |
+| **Abstract class** | ✅ | ✅ | May or may not be implemented |
 
 > [!info] Abstract class = in-between It's a concept between an interface and a class. See [[OOP Lecture 3 - Interfaces and Inheritance#6. Abstract Classes|Abstract Classes]].
 
