@@ -1,17 +1,7 @@
----
+[[Session 2a - Classes and Objects.pdf]]
+[[Session 2b - Packages and Imports.pdf]]
+[[Session 2c - Encapsulation.pdf]]
 
-## course: OOP lecture: 2 lecturer: Magnus Madsen topics: [classes, objects, constructors, garbage-collection, packages, encapsulation, access-modifiers] tags: [oop, java, lecture]
-
-# OOP Lecture 2 – Classes, Packages & Encapsulation
-
-> [!summary] TL;DR
-> 
-> - A **class** is a blueprint; an **object** is an instance of it, created with `new` and living on the heap.
-> - Variables hold **references** to objects, so `=` copies the arrow, not the object.
-> - **Packages** group classes and prevent name clashes (`java.lang.String`).
-> - **Encapsulation**: make fields `private`, change state only through methods that protect the object's rules.
-
----
 
 ## 1. Programming Paradigms
 
