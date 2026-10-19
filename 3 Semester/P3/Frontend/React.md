@@ -64,4 +64,7 @@ TypeScript's `type Props` checks that everyone passes the right things. If you f
 
 
 # State
-State is **data that belongs to a component and**
+State is **data that belongs to a component and can change over time**. When state changes, React redraws the component automatically.
+
+`WaiterPage.tsx` has three pieces of state:
+- `TableCard` calls `onClick`
