@@ -91,4 +91,10 @@ Example flow, from the waiter tapping the table 4:
 Two important rules, both of which the code follows:
 - **Never change state directly.** Always make a copy with the change: `setOrder({...orders, [selectedTable]: newLines })`. The `...` (spread) copies the old object.
   React only notices the change if you give it a new object.
-- **State lives in the parent and goes down as props.** `WaiterPage` owns `orders`, and `OrderPanel` only gets `lines` plus functions. This is called "lifting state up", and it means there's only one place where the order can be changes
+- **State lives in the parent and goes down as props.** `WaiterPage` owns `orders`, and `OrderPanel` only gets `lines` plus functions. This is called "lifting state up", and it means there's only one place where the order can be changed.
+
+**Props vs state in one sentence:** props are given to you from outside and are read-only, while state is your own and can change.
+
+
+# Hooks
+Hooks are special functions that start with `use`. They give a component extra ab
