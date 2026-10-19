@@ -137,4 +137,16 @@ The component then only needs one line:
 `KitchenBoard` doesn't know anything about URLs, fetching or polling. It just gets data and a button action. (Dunia explain the fetch and HTTP part)
 
 
-****
+**Where the hooks live in the folder structure**
+
+```
+	
+	src/features/
+	├─ menu/hooks.ts                  → useMenu()         (menu for customers)
+	├─ kitchen/useKitchen.ts          → useKitchen()      (kitchen screens + 
+	"DONE" button)
+	├─ tables/useTables.ts            → useTables()       (the restaurant's tables)
+	└─ GrillKitchen/useGrillKitchen.ts → useGrillKitchen()
+	
+```
+The pattern: each **feauter**
