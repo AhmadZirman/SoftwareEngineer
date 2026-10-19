@@ -107,4 +107,30 @@ Hooks are special functions that start with `use`. They give a component extra a
 - `useMutation` (TanStack Query) sends changes to the backend, like "mark the dish as done".
 - `useQueryClient` gives access to the cache so you can say "this data is outdates, fetch it again".
 
-**Our own custom hooks** are the most interesting part to present. We bundle the logic into our own hook so the component stays sim
+**Our own custom hooks** are the most interesting part to present. We bundle the logic into our own hook so the component stays simple:
+
+```tsx
+	
+	// features/kitchen/useKitchen.ts
+	export function useKitchen(station: "PIZZA" | "GRILL") {
+	    const ordersQuery = useQuery({
+	        queryKey: ["kitchen", station],
+	        queryFn: ...fetch(`/api/kitchen?station=${station}`)...,
+	        select: groupIntoTickets,   // groups dishes into one ticket per order
+	        refetchInterval: 5000,      // checks for new orders every 5 seconds
+	    });
+	    const markDone = useMutation({ ... });
+	    return { ...ordersQuery, markDone };
+	}
+	
+```
+
+
+The component then only needs one line:
+
+```tsx
+	
+	// pages/kitchen/KitchenBoard.tsx
+	const { data: orders, markDone, isLoading, error } = useKitchen(station);
+	
+```
