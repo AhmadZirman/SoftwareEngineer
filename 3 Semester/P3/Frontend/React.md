@@ -102,4 +102,6 @@ Hooks are special functions that start with `use`. They give a component extra a
 **Built-in React hook:**
 - `useState` remembers values between redraws
 
-****
+**Hooks from libraries**:
+- `useQuery` (TanStack Query) fetches data from the backend and handles loading, errors, and caching.
+- `useMutation` (TanStack Query) sends changes to the backend, like "mark the dish as done"
