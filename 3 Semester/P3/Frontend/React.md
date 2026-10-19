@@ -88,3 +88,5 @@ Example flow, from the waiter tapping the table 4:
 3. React notices the state changes and redraws `WaiterPage`
 4. `SelectedTable !== null`, so the order screen is shown instead of the table overview
 
+Two important rules, both of which the code follows:
+- **Never change state directly.** Always make a copy with the change: `setOrder([`
