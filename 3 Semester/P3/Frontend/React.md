@@ -91,4 +91,4 @@ Example flow, from the waiter tapping the table 4:
 Two important rules, both of which the code follows:
 - **Never change state directly.** Always make a copy with the change: `setOrder({...orders, [selectedTable]: newLines })`. The `...` (spread) copies the old object.
   React only notices the change if you give it a new object.
-- **State lives**
+- **State lives in the parent and goes down as props.** `WaiterPage` owns `orders`, and `OrderPanel` only gets `lines` plus functions. This is called "lifting state up", and it means there's only one place where the order can be changes
