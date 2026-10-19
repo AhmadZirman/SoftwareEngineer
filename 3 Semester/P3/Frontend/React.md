@@ -149,4 +149,5 @@ The component then only needs one line:
 	└─ GrillKitchen/useGrillKitchen.ts → useGrillKitchen()
 	
 ```
-The pattern: each **feauter**
+The pattern: each **feature** folder has its own hook(s) for fetching data, its own `components/` and its own `types.ts`. Pages in `pages/` just put the pieces together.
+
