@@ -35,4 +35,15 @@ You write once, change it in one place, and every screen gets the change.
 
 
 # Props
-Props are **the information a component gets from outside**
+Props are **the information a component gets from outside**, like parameters to a function. They only go one way, from parent to child, and the child can't change them.
+
+```tsx
+
+// features/waiter/components/TableCard.tsx
+type Props = { table: RestaurantTable; // data
+onClick: () => void; // a function
+};
+
+export default function TableCard({ table, onClick }: Props) { return ( <button onClick={onClick}> <div>{table.tableNumber}</div> <p>{table.seats} pladser</p> </button> ); }
+
+```
