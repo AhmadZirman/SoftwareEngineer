@@ -18,4 +18,11 @@ The basic rule of React: data goes in, UI comes out. When the data changes, Reac
 
 
 # Components
-A component is a function that returns 
+A component is a function that returns HTML-like code (JSX). The name starts with a capital letter.
+
+```tsx
+	
+	// pages/kitchen/PizzaScreen.tsx
+	export default function PizzaScreen() { return <KitchenBoard station="PIZZA" title="PIZZA KITCHEN" />; }
+	
+```
