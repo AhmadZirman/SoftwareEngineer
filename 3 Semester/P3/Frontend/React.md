@@ -80,6 +80,9 @@ State is **data that belongs to a component and can change over time**. When sta
 	// order lines per table
 	
 ```
-`useState` gives back two things: **the value** nd 
+`useState` gives back two things: **the value** and **a function to change it**.
 
-- `TableCard` calls `onClick`
+Example flow, from the waiter tapping the table 4:
+1. `TableCard` calls `onClick`
+2. That runs `setSelectedTable(4)`
+3. React notices the sta
