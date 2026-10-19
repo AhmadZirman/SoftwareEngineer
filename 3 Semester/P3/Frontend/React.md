@@ -56,4 +56,6 @@ Props are **the information a component gets from outside**, like parameters to 
 ```
 There are two kinds of props:
 - **Data props** like `table`, `items` and `lines`. These say what to show.
-- **Function props** like `onClick`, `onSend` and `onRemove`
+- **Function props** like `onClick`, `onSend` and `onRemove`. These say what to do when something happens. This is how a child "talks back" to its parent: it calls a function the parent handed it.
+
+`OrderPanel` is the clearest example. It gets the order lines and five functions (`on`)
