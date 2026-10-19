@@ -134,7 +134,7 @@ The component then only needs one line:
 	const { data: orders, markDone, isLoading, error } = useKitchen(station);
 	
 ```
-`KitchenBoard` doesn't know anything about URLs, fetching or polling. It just gets data and a button action. (Dunia explain the fetch and HTTP part)
+`KitchenBoard` doesn't know anything about URLs, fetching or polling. It just gets data and a button action. (Dunia explains the fetch and HTTP part)
 
 
 **Where the hooks live in the folder structure**
