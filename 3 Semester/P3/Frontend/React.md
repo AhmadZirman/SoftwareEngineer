@@ -12,4 +12,6 @@ React builds the page out of small pieces called components. The browser loads `
 	  └─ "/kitchen" → StaffLayout    → Overview / Pizza / Grill
 
 ```
-The router 
+The router looks at the URL and picks which components to show. The layouts (`CustomerLayou`, `StaffLayout`) draw the header and menu bar, and `<Outlet />` is the slot where the current page appears.
+
+The basic rule of Reac
