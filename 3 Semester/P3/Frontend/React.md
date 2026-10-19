@@ -29,4 +29,10 @@ A component is a function that returns HTML-like code (JSX). The name starts wit
 ```
 Good example to show: **reuse.** `KitchenBoard` is written once and used in three places:
 - `PizzaScreen` shows the pizza board
-- `GrillScreen` shows the gr
+- `GrillScreen` shows the grill board
+- `OverviewScreen` shows both side by side
+You write once, change it in one place, and every screen gets the change.
+
+
+# Props
+Props are **the information a component gets from outside**
