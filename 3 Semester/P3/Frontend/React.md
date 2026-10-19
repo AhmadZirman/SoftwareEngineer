@@ -67,4 +67,19 @@ TypeScript's `type Props` checks that everyone passes the right things. If you f
 State is **data that belongs to a component and can change over time**. When state changes, React redraws the component automatically.
 
 `WaiterPage.tsx` has three pieces of state:
+
+```tsx
+	
+	const [selectedTable, setSelectedTable] = useState<number | null>(null);
+	// which table is open
+	
+	const [category, setCategory] = useState(categories[0]);
+	// which menu tab is active
+	
+	const [orders, setOrders] = useState<Record<number, OrderLine[]>>({});
+	// order lines per table
+	
+```
+`useState` gives back two things: **the value** nd 
+
 - `TableCard` calls `onClick`
