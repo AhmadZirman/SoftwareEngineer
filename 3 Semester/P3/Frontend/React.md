@@ -4,9 +4,12 @@ React builds the page out of small pieces called components. The browser loads `
 
 ```md
 
-index.html  →  main.tsx  →  RouterProvider (router.tsx)
-  ├─ "/"        → CustomerLayout → Frontpage / Menupage / LogIn
-  ├─ "/waiter"  → StaffLayout    → WaiterPage
-  └─ "/kitchen" → StaffLayout    → Overview / Pizza / Grill
+	index.html  →  main.tsx  →  RouterProvider (router.tsx)
+	
+	router.tsx
+	  ├─ "/"        → CustomerLayout → Frontpage / Menupage / LogIn
+	  ├─ "/waiter"  → StaffLayout    → WaiterPage
+	  └─ "/kitchen" → StaffLayout    → Overview / Pizza / Grill
 
 ```
+The router 
