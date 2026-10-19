@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+                "file": "3 Semester/P3/Frontend/React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3 Exercises"
+              "title": "React"
             }
           }
         ]
@@ -189,8 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9eee040bf2a833ad",
+  "active": "fd0d57dfb1dd671c",
   "lastOpenFiles": [
+    "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
+    "3 Semester/P3/Frontend/React.md",
+    "3 Semester/P3/Frontend",
+    "3 Semester/P3",
     "3 Semester/SU/Slides/SD07 - Functions.pdf",
     "3 Semester/SU/Slides/SD05 - Usage.pdf",
     "3 Semester/SU/Slides/SD03 - Behaviour.pdf",
@@ -204,9 +208,6 @@
     "3 Semester/OOP/Slides/Session 8 - Enums.pdf",
     "3 Semester/OOP/Slides/Session 7 - Software Testing.pdf",
     "3 Semester/OOP/Slides/Session 6 - Object Class.pdf",
-    "3 Semester/OOP/Slides/Session 6 - Generics.pdf",
-    "3 Semester/OOP/Slides/Session 6 - Collections.pdf",
-    "3 Semester/OOP/Slides/Session 4 - Object-Oriented Design.pdf",
     "3 Semester/OOP/Exam/2025 Solution/src/SearchStrategy.md",
     "3 Semester/OOP/Exam/2025 Solution/src/TextBook.md",
     "3 Semester/OOP/Exam/2025 Solution/src/SearchByTitle.md",
@@ -224,7 +225,6 @@
     "3 Semester/DSA/Notes/Lecture 5.md",
     "3 Semester/DSA/Notes/Lecture 4.md",
     "3 Semester/DSA/Exercises/Lecture 2 Exercises.md",
-    "3 Semester/DSA/Exercises/Lecture 3 Exercises.md",
     "3 Semester/DSA/Exercises/Lecture 1 Exercises.md",
     "3 Semester/DSA/DSA Lectures.md"
   ]
