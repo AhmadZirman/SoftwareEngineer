@@ -27,3 +27,6 @@ A component is a function that returns HTML-like code (JSX). The name starts wit
 	title="PIZZA KITCHEN" />; }
 	
 ```
+Good example to show: **reuse.** `KitchenBoard` is written once and used in three places:
+- `PizzaScreen` shows the pizza board
+- `GrillScreen` shows the gr
