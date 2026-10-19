@@ -54,3 +54,6 @@ Props are **the information a component gets from outside**, like parameters to 
 	}
 	
 ```
+There are two kinds of props:
+- **Data props** like `table`, `items` and `lines`. These say what to show.
+- **Function props** like `onClick`, `onSend` and `onRemove`
