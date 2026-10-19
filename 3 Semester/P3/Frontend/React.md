@@ -14,4 +14,8 @@ React builds the page out of small pieces called components. The browser loads `
 ```
 The router looks at the URL and picks which components to show. The layouts (`CustomerLayou`, `StaffLayout`) draw the header and menu bar, and `<Outlet />` is the slot where the current page appears.
 
-The basic rule of Reac
+The basic rule of React: data goes in, UI comes out. When the data changes, React redraws the parts of the page that changed by itself.. You never write `document.getElementById(...)`.
+
+
+# Components
+A component is a function that returns 
