@@ -97,4 +97,7 @@ Two important rules, both of which the code follows:
 
 
 # Hooks
-Hooks are special functions that start with `use`. They give a component extra ab
+Hooks are special functions that start with `use`. They give a component extra abilities, like remembering things or fetching data. Rules: only call them **at the top of a component** (not inside `if` or loops), and only inside components or other hooks.
+
+**Built-in React hook:**
+- 
