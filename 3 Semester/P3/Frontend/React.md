@@ -104,4 +104,7 @@ Hooks are special functions that start with `use`. They give a component extra a
 
 **Hooks from libraries**:
 - `useQuery` (TanStack Query) fetches data from the backend and handles loading, errors, and caching.
-- `useMutation` (TanStack Query) sends changes to the backend, like "mark the dish as done"
+- `useMutation` (TanStack Query) sends changes to the backend, like "mark the dish as done".
+- `useQueryClient` gives access to the cache so you can say "this data is outdates, fetch it again".
+
+**Our own custom hooks** are the most interesting part to present. We bundle the logic into our own hook so the component stays sim
